@@ -158,7 +158,7 @@ const UnifiedBrandStory = () => {
           <div className="max-w-4xl mx-auto">
             <div className="mb-8">
               <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                The Swiss Army Knife of Professional Services
+                Our Professional Services
               </h3>
               <p className="text-lg text-gray-600">
                 Versatile yet specialized, comprehensive yet focused—every tool working in perfect harmony.
