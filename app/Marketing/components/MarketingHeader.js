@@ -78,10 +78,10 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
-              <a href="#" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Home</a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">IT Services</a>
-              <a href="#" className="text-gray-700 hover:text-cyan-500 block px-3 py-2 text-base font-medium">Marketing</a>
-              <a href="#" className="text-gray-700 hover:text-green-600 px-3 py-2 text-sm font-medium">Business Consulting</a>
+              <a href="/Marketing" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Home</a>
+              <a href="/Marketing/About" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">About Us</a>
+              <a href="/Marketing/Service" className="text-gray-700 hover:text-cyan-500 block px-3 py-2 text-base font-medium">Services</a>
+              <a href="/Marketing/Contact" className="text-gray-700 hover:text-green-600 px-3 py-2 text-sm font-medium">Contact Us</a>
               <button className="w-full bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md text-sm font-medium mt-2">
                 Get Consultation
               </button>
