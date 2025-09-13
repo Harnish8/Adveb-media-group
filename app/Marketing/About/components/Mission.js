@@ -21,7 +21,7 @@ const brandStory = {
   approach: {
     title: "Our Approach",
     icon: "Zap",
-    content: `The 'Swiss Army knife' of professional services—versatile yet specialized, comprehensive yet focused. 
+    content: `Our professional services—versatile yet specialized, comprehensive yet focused. 
               We don't just deliver services; we create ecosystems where IT infrastructure enables marketing excellence, 
               marketing insights drive business strategy, and business goals shape technology decisions.`,
     highlights: [
