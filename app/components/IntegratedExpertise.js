@@ -279,7 +279,7 @@ const IntegratedExpertise = () => {
                 </Link>
                 
                 <div className="mt-auto relative z-10">
-                  <Link href={service.link} className={`inline-flex items-center justify-center bg-gradient-to-r ${service.buttonGradient} ${service.buttonHover} text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg border-0 font-semibold w-full relative overflow-hidden group`}>
+                  <Link href={service.link} className={`inline-flex items-center justify-center bg-gradient-to-r ${service.buttonGradient} ${service.buttonHover} text-white px-8 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg border-0 font-semibold w-full relative overflow-hidden group`} target="_blank">
                     <span className="relative z-10">{service.buttonText}</span>
                     <div className="absolute inset-0 bg-white opacity-0 hover:opacity-10 transition-opacity duration-300"></div>
                   </Link>
