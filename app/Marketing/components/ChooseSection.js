@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { Plus, CheckCircle, Handshake, Shield, Award } from 'lucide-react'
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const accordionItems = [
   {
@@ -48,7 +49,7 @@ export default function ChooseSection() {
         <div className="flex flex-wrap items-center -mx-4">
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
             <div className="choose-img">
-              <Image
+              {/* <Image
                 src="/images/choose-img.png"
                 alt="Why choose us"
                 width={700}
@@ -59,6 +60,12 @@ export default function ChooseSection() {
                   width: '100%',
                   height: 'auto',
                 }}
+              /> */}
+              <DotLottieReact
+                src="/lottie/3.lottie" // put your .lottie file in /public
+                loop
+                autoplay
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
           </div>

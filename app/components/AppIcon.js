@@ -10,7 +10,21 @@ import {
   Heart,
   Compass,
   Check,
-  Plus
+  Plus,
+  Calendar,
+  Award,
+  Code,
+  Palette,
+  Globe,
+  Smartphone,
+  Mail,
+  Share2,
+  Search,
+  Lightbulb,
+  FileText,
+  PenTool,
+  Layers,
+  Feather
 } from 'lucide-react'
 
 const iconMap = {
@@ -26,6 +40,20 @@ const iconMap = {
   Compass,
   Check,
   Plus,
+  Calendar,
+  Award,
+  Code,
+  Palette,
+  FileText,
+  Mail,
+  Lightbulb,
+  Share2,
+  Search,
+  Globe,
+  Smartphone,
+  PenTool,
+  Layers,
+  Feather
 }
 
 export default function AppIcon({ name, size = 24, className = "" }) {

@@ -1,6 +1,8 @@
+'use client'
 import Image from 'next/image';
 import Link from 'next/link';
 import { Play } from 'lucide-react';
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export default function TechnologySection() {
   return (
@@ -9,7 +11,7 @@ export default function TechnologySection() {
         <div className="flex flex-wrap items-center -mx-4">
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
             <div className="relative overflow-hidden rounded-lg shadow-xl">
-              <Image
+              {/* <Image
                 src="/images/feature-img.png"
                 alt="Updated Technology"
                 width={600}
@@ -20,14 +22,20 @@ export default function TechnologySection() {
                   width: '100%',
                   height: 'auto',
                 }}
+              /> */}
+              <DotLottieReact
+                src="/lottie/011.lottie" // put your .lottie file in /public
+                loop
+                autoplay
+                style={{ width: "100%", height: "auto" }}
               />
               <div className="absolute inset-0 flex items-center justify-center">
-                <Link
+                {/* <Link
                   href="https://www.youtube.com/watch?v=TdSA7gkVYU0"
                   className="bg-blue-600 text-white p-4 rounded-full transition-transform duration-300 hover:scale-110"
                 >
                   <Play className="w-8 h-8" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -42,11 +50,11 @@ export default function TechnologySection() {
               <p className="text-gray-600">
                 There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going There are many variations of passages of Lorem Ipsum available, but the.
               </p>
-              <div>
-              <Link href="/contact" className="btn-primary">
-                Contact Us
-              </Link>
-              </div>
+              {/* <div>
+                <Link href="/contact" className="btn-primary">
+                  Contact Us
+                </Link>
+              </div> */}
             </div>
           </div>
         </div>

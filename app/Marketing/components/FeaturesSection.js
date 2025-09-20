@@ -1,5 +1,7 @@
+'use client'
 import Image from 'next/image'
 import { CheckCircle } from 'lucide-react'
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const features = [
   "Freelancing Training Course",
@@ -23,7 +25,7 @@ export default function FeaturesSection() {
               <p className="text-gray-700 mb-8">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consectetur, beatae quod eaque reprehenderit non ab quibusdam doloribus voluptatibus! Voluptatum aspernatur quasi id dolore doloremque quo vero
               </p>
-              <ul className="space-y-4 mb-8">
+              <ul className="space-y-4">
                 {features.map((feature, index) => (
                   <li key={index} className="flex items-center text-gray-700 text-lg">
                     <CheckCircle className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" />
@@ -31,14 +33,14 @@ export default function FeaturesSection() {
                   </li>
                 ))}
               </ul>
-              <button className="btn-primary">
+              {/* <button className="btn-primary">
                 Lets Talk!
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="w-full lg:w-1/2 px-4">
             <div className="relative">
-              <Image
+              {/* <Image
                 src="/images/feature-img.png"
                 alt="Features illustration"
                 width={700}
@@ -49,6 +51,12 @@ export default function FeaturesSection() {
                   width: '100%',
                   height: 'auto',
                 }}
+              /> */}
+              <DotLottieReact
+                src="/lottie/018.lottie" // put your .lottie file in /public
+                loop
+                autoplay
+                style={{ width: "100%", height: "auto" }}
               />
             </div>
           </div>

@@ -27,7 +27,7 @@ export default function Home() {
       <CompanySection />
       <TechnologySection />
       <ClientSection />
-      <FeatureSection />
+      {/* <FeatureSection /> */}
       <Footer />
     </div>
   )

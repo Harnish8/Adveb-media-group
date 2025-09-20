@@ -65,7 +65,7 @@ import Link from "next/link";
 
 export default function PageTitle({ title, paths = [] }) {
   return (
-    <div className="relative py-20 lg:py-32 bg-gradient-to-br from-slate-900 via-purple-900 to-indigo-800 text-white overflow-hidden">
+    <div className="relative py-20 lg:py-32 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white overflow-hidden">
       <div className="container mx-auto px-4 relative z-10 text-center">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4">
           {title}
