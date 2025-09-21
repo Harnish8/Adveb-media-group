@@ -770,9 +770,9 @@ const TechnologyStack = () => {
                   <div className="flex-1">
                     <div className="flex items-center justify-between mb-2">
                       <h4 className="font-semibold text-gray-900">{tech.name}</h4>
-                      <span className="text-xs font-medium text-blue-600 bg-blue-50 px-2 py-1 rounded">
+                      {/* <span className="text-xs font-medium text-blue-600 bg-blue-50 px-2 py-1 rounded">
                         {tech.projects}
-                      </span>
+                      </span> */}
                     </div>
                     <p className="text-sm text-gray-600 mb-4">{tech.description}</p>
                   </div>

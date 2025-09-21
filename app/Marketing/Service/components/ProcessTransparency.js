@@ -139,9 +139,9 @@ const ProcessTransparency = () => {
                                                     }`}>
                                                     {phase.title}
                                                 </h3>
-                                                <span className="text-sm text-blue-600 font-medium bg-blue-50 px-2 py-1 rounded">
+                                                {/* <span className="text-sm text-blue-600 font-medium bg-blue-50 px-2 py-1 rounded">
                                                     {phase.duration}
-                                                </span>
+                                                </span> */}
                                             </div>
                                             <p className="text-sm text-gray-600 leading-relaxed">
                                                 {phase.description}
@@ -224,7 +224,7 @@ const ProcessTransparency = () => {
                         </div>
 
                         {/* Progress Indicator */}
-                        <div className="mt-8 pt-6 border-t border-gray-200">
+                        {/* <div className="mt-8 pt-6 border-t border-gray-200">
                             <div className="flex justify-between items-center mb-2">
                                 <span className="text-sm font-medium text-gray-600">Phase Progress</span>
                                 <span className="text-sm font-medium text-blue-600">
@@ -237,7 +237,7 @@ const ProcessTransparency = () => {
                                     style={{ width: `${((activePhase + 1) / phases.length) * 100}%` }}
                                 ></div>
                             </div>
-                        </div>
+                        </div> */}
                     </motion.div>
                 </div>
 
@@ -308,9 +308,9 @@ const ProcessTransparency = () => {
                                             <h4 className="font-semibold text-gray-900 text-sm mb-1 leading-tight">
                                                 {phase.title}
                                             </h4>
-                                            <p className="text-xs text-blue-600 font-medium">
+                                            {/* <p className="text-xs text-blue-600 font-medium">
                                                 {phase.duration}
-                                            </p>
+                                            </p> */}
                                         </div>
                                     </div>
                                 ))}
@@ -341,9 +341,9 @@ const ProcessTransparency = () => {
                                     <h4 className="font-semibold text-gray-900 text-sm mb-1">
                                         {phase.title}
                                     </h4>
-                                    <p className="text-xs text-blue-600 font-medium mb-2">
+                                    {/* <p className="text-xs text-blue-600 font-medium mb-2">
                                         {phase.duration}
-                                    </p>
+                                    </p> */}
                                     <p className="text-xs text-gray-600 leading-relaxed">
                                         {phase.description}
                                     </p>
@@ -353,7 +353,7 @@ const ProcessTransparency = () => {
                     </div>
 
                     {/* Progress Bar */}
-                    <div className="mt-8 pt-6 border-t border-gray-200">
+                    {/* <div className="mt-8 pt-6 border-t border-gray-200">
                         <div className="flex justify-between items-center mb-3">
                             <span className="text-sm font-medium text-gray-600">Overall Progress</span>
                             <span className="text-sm font-medium text-blue-600">
@@ -368,7 +368,7 @@ const ProcessTransparency = () => {
                                 className="bg-gradient-to-r from-blue-600 to-cyan-500 h-2 rounded-full"
                             ></motion.div>
                         </div>
-                    </div>
+                    </div> */}
                 </motion.div>
 
             </div>

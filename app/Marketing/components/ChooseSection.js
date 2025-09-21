@@ -12,7 +12,7 @@ const accordionItems = [
   },
   {
     title: "Update Technology",
-    content: "The digital world moves fast, and so do we. We are committed to staying at the forefront of technology, using the latest tools and frameworks to build future-proof solutions that give you a competitive edge.",
+    content: "We know the digital landscape moves fast. That's why we're dedicated to mastering the latest trends, using cutting-edge tools to create solutions that not only work for you today but are also ready for tomorrow. Our goal is to give your business a sustainable advantage.",
     icon: <Shield className="text-blue-600 w-6 h-6" />,
   },
   {

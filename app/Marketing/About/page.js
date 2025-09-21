@@ -24,9 +24,9 @@ export default function Home() {
         paths={paths}
       />
       <Mission />
+      <ClientSection />
       <CompanySection />
       <TechnologySection />
-      <ClientSection />
       {/* <FeatureSection /> */}
       <Footer />
     </div>

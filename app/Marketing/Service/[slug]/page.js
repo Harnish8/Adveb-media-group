@@ -341,7 +341,7 @@ const ServiceDetail = () => {
       icon: Search,
       title: "Search Engine Optimisation (SEO)",
       description: "Get found on Google by the right people at the right time. Your business deserves to be at the top.",
-      longDescription: "Tired of being on page two? Our SEO services are designed to get your website noticed by potential customers in Australia. We do the heavy lifting—from keyword research and on-page optimisation to building quality backlinks. Our goal is to increase your organic traffic, improve your search rankings, and turn your website into a powerful lead-generating machine. We'll make sure when someone searches for 'web developer Sydney' or 'digital marketing Melbourne,' they find you.",
+      longDescription: "Tired of being on page two? Our SEO services are designed to get your website noticed by potential customers in Australia. We do the heavy lifting from keyword research and on-page optimisation to building quality backlinks. Our goal is to increase your organic traffic, improve your search rankings, and turn your website into a powerful lead-generating machine. We'll make sure when someone searches for 'web developer Sydney' or 'digital marketing Melbourne,' they find you.",
       features: [
         "Local & National SEO Strategies",
         "In-Depth Keyword Research",
@@ -403,7 +403,7 @@ const ServiceDetail = () => {
     "social-media-management": {
       icon: Share2,
       title: "Social Media Management",
-      description: "Build a thriving community and connect with your audience where they spend their time—on social media.",
+      description: "Build a thriving community and connect with your audience where they spend their time on social media.",
       longDescription: "Social media is more than just posting photos; it's about building a community around your brand. We handle everything from content strategy and creation to daily posting and audience engagement. Our goal is to grow your following, boost brand awareness, and drive meaningful conversations that turn followers into loyal customers. Let's make your social presence a powerful asset for your business.",
       features: [
         "Social Media Strategy & Planning",
@@ -578,7 +578,7 @@ const ServiceDetail = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Technologies We Use</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We leverage the latest technologies and industry best practices to deliver exceptional results
+              Our expertise is built on a foundation of cutting-edge technology and proven methodologies.
             </p>
           </div>
 
