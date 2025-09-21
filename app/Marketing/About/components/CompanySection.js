@@ -8,16 +8,16 @@ export default function CompanySection() {
           <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
             <div className="space-y-6">
               <div className="space-y-2">
-                <span className="text-blue-600 font-semibold text-sm">Our Company</span>
+                <span className="text-blue-600 font-semibold text-sm">About Adveb Media Group</span>
                 <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-                  Innovative It Helping Service All Over the World
+                  Driving Digital Transformation for Ambitious Businesses
                 </h2>
               </div>
               <p className="text-gray-600">
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,content here normal distribution looking at its.
+                At Adveb, we believe in the power of partnership. We&apos;re a team of dedicated digital experts committed to helping businesses like yours thrive in a competitive market. Our passion is crafting bespoke solutions that not only meet your needs but also drive tangible, lasting results.
               </p>
               <p className="text-gray-600">
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,content here normal distribution looking at its.
+                We don&apos;t just work for you; we work with you. By taking the time to truly understand your vision, we become an extension of your team, providing the strategic guidance and technical expertise you need to succeed online.
               </p>
             </div>
           </div>

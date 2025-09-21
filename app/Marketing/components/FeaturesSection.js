@@ -4,11 +4,12 @@ import { CheckCircle } from 'lucide-react'
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const features = [
-  "Freelancing Training Course",
-  "Technological Consultation",
-  "Monthly Paid Workspace",
-  "IT Learning Institute",
-  "Digital Marketing",
+  "Ongoing Technical Support",
+  "Tailored Digital Strategy",
+  "Transparent Communication",
+  "Post-Launch Optimisation",
+  "Dedicated Project Manager",
+  "Personalised Digital Solutions",
 ];
 
 export default function FeaturesSection() {
@@ -23,7 +24,7 @@ export default function FeaturesSection() {
                 We Have Also Some Features That Provided by Adveb
               </h2>
               <p className="text-gray-700 mb-8">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consectetur, beatae quod eaque reprehenderit non ab quibusdam doloribus voluptatibus! Voluptatum aspernatur quasi id dolore doloremque quo vero
+                At Adveb, we dont just offer standard services; we provide a complete ecosystem for your business to thrive. From consultation to ongoing support, weve got you covered
               </p>
               <ul className="space-y-4">
                 {features.map((feature, index) => (

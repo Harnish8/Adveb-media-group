@@ -7,22 +7,22 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 const accordionItems = [
   {
     title: "Great Understanding",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sit amet consectetur adipiscing.",
+    content: "We believe the best solutions start with a deep conversation. Our team takes the time to truly understand your business goals and challenges, ensuring every strategy is perfectly tailored to your unique needs.",
     icon: <Handshake className="text-blue-600 w-6 h-6" />,
   },
   {
     title: "Update Technology",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sit amet consectetur adipiscing.",
+    content: "The digital world moves fast, and so do we. We are committed to staying at the forefront of technology, using the latest tools and frameworks to build future-proof solutions that give you a competitive edge.",
     icon: <Shield className="text-blue-600 w-6 h-6" />,
   },
   {
     title: "Experienced Team",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sit amet consectetur adipiscing.",
+    content: "Our team isn't just experienced, we are passionate problem-solvers. We've successfully completed hundreds of projects, bringing a wealth of knowledge and a can do attitude to every challenge we face.",
     icon: <CheckCircle className="text-blue-600 w-6 h-6" />,
   },
   {
     title: "Best Quality Service",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt sit amet consectetur adipiscing.",
+    content: "Our commitment to quality is what sets us apart. We take immense pride in our work, meticulously crafting every project with attention to detail to ensure it not only meets but exceeds your expectations.",
     icon: <Award className="text-blue-600 w-6 h-6" />,
   },
 ];
@@ -43,7 +43,7 @@ export default function ChooseSection() {
             We Achieved People’s Trust by Our Great Service
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.
+            Your search for a reliable digital partner ends here. We are dedicated to delivering not just services, but peace of mind, empowering businesses across Australia to achieve their digital ambitions with confidence.
           </p>
         </div>
         <div className="flex flex-wrap items-center -mx-4">

@@ -42,13 +42,13 @@ export default function TechnologySection() {
           <div className="w-full lg:w-1/2 px-4">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-                Updated Technology
+                Leading the Way in Digital Innovation
               </h2>
               <p className="text-gray-600">
-                You need to be sure there isnt anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with.
+                At Adveb, our core mission is to empower businesses with the technology and strategy they need to stay ahead. We are a team of pioneers, passionately committed to exploring and mastering the latest digital trends to build solutions that don&apos;t just solve today&apos;s problems but also anticipate tomorrow&apos;s needs. We believe true success is found in a future-ready approach.
               </p>
               <p className="text-gray-600">
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going There are many variations of passages of Lorem Ipsum available, but the.
+                We are experts in turning complex challenges into clear, actionable digital roadmaps. By blending creative thinking with data-driven insights, we craft custom solutions that enhance your brand, streamline your operations, and create new opportunities for growth. Your success is our mission. Let&apos;s start the journey.
               </p>
               {/* <div>
                 <Link href="/contact" className="btn-primary">

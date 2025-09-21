@@ -11,13 +11,13 @@ export default function CompanySection() {
             <div className="mb-2">
               <span className="text-blue-600 font-semibold mb-2 block">Our Company</span>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Innovative It Helping Service All Over the World
+                Strategic Digital Partner for Global Impact
               </h2>
               <p className="text-gray-700 mb-6">
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more or less normal distribution of letters, as opposed to using Content here,content here normal distribution looking at its.
+                Based right here in Australia, we&apos;re a team of passionate innovators driven by a simple goal: to help local businesses succeed in a digital world. We believe that technology should empower, not complicate, and we&apos;re here to be your trusted guide on that journey
               </p>
               <p className="text-gray-700">
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form variations passages.
+                Our philosophy is built on strong relationships and a commitment to genuine results. Were not just another vendor; we&apos;re an extension of your team, dedicated to turning your vision into a digital reality.
               </p>
               {/* <a href="#" className="btn-primary">
                 Know More

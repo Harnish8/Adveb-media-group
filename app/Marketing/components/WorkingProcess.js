@@ -2,23 +2,23 @@ import Image from 'next/image'
 
 const processSteps = [
   {
-    title: "Research Product",
-    description: "Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    title: "Research & Strategy",
+    description: "Every great project begins with a deep dive. We work with you to understand your goals, your audience, and your market so we can build a strong foundation for success.",
     icon: "/images/s1.png",
   },
   {
-    title: "User Testing",
-    description: "Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    title: "Collaborative Design",
+    description: "This is where your ideas start to take shape. We create wireframes and mockups and work closely with you to refine the design, ensuring a seamless user experience that looks fantastic.",
     icon: "/images/s2.png",
   },
   {
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    title: "Agile Development",
+    description: "Our developers bring the design to life, building a robust and scalable solution using the latest technology. We keep you updated every step of the way with a transparent development process.",
     icon: "/images/s3.png",
   },
   {
-    title: "Product Handover",
-    description: "Lorem ipsum dolor sit amet, co nsectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+    title: "Launch & Support",
+    description: "The big day! We handle all the technical details for a smooth launch. Our work doesn't stop there; we provide ongoing support and maintenance to ensure everything runs perfectly.",
     icon: "/images/s4.png",
   },
 ];
@@ -30,10 +30,10 @@ export default function WorkingProcess() {
         <div className="text-center mb-16">
           <span className="text-blue-600 font-semibold mb-2 block">Working Process</span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            We Are Popular Because Of Our Way Of Working
+            Our Process is Built for Your Success
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.
+            We believe a great partnership starts with a clear collaborative process. Our approach is designed to keep you in the loop, ensuring we deliver results that are not just on time but also a perfect fit for your vision.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
