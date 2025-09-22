@@ -161,8 +161,8 @@ const MissionSection = () => {
                     </motion.div>
                   </div>
                 </div>
-                <div className="grid grid-cols-2 gap-4">
-                  <motion.div
+                {/* <div className="grid grid-cols-2 gap-4"> */}
+                  {/* <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.6 }}
@@ -171,8 +171,8 @@ const MissionSection = () => {
                   >
                     <div className="text-2xl font-bold">150+</div>
                     <div className="text-sm text-gray-600">Projects Delivered</div>
-                  </motion.div>
-                  <motion.div
+                  </motion.div> */}
+                  {/* <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.7 }}
@@ -181,8 +181,8 @@ const MissionSection = () => {
                   >
                     <div className="text-2xl font-bold">98%</div>
                     <div className="text-sm text-gray-600">On-Time Delivery</div>
-                  </motion.div>
-                  <motion.div
+                  </motion.div> */}
+                  {/* <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.8 }}
@@ -191,8 +191,8 @@ const MissionSection = () => {
                   >
                     <div className="text-2xl font-bold">85%</div>
                     <div className="text-sm text-gray-600">Repeat Clients</div>
-                  </motion.div>
-                  <motion.div
+                  </motion.div> */}
+                  {/* <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.9 }}
@@ -201,8 +201,8 @@ const MissionSection = () => {
                   >
                     <div className="text-2xl font-bold">24/7</div>
                     <div className="text-sm text-gray-600">Support</div>
-                  </motion.div>
-                </div>
+                  </motion.div> */}
+                {/* </div> */}
               </div>
             </div>
           </motion.div>

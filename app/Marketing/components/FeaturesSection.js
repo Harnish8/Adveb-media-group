@@ -24,7 +24,7 @@ export default function FeaturesSection() {
                 We Have Also Some Features That Provided by Adveb
               </h2>
               <p className="text-gray-700 mb-8">
-                At Adveb, we dont just offer standard services; we provide a complete ecosystem for your business to thrive. From consultation to ongoing support, weve got you covered
+                At Adveb, we dont just offer standard services, we provide a complete ecosystem for your business to thrive. From consultation to ongoing support, weve got you covered
               </p>
               <ul className="space-y-4">
                 {features.map((feature, index) => (

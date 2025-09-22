@@ -54,16 +54,16 @@ const HeroSection1 = () => {
                             transition={{ delay: 0.6, duration: 0.6 }}
                             className="text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl"
                         >
-                            Since our founding, weve been the strategic digital partner that ambitious companies trust to architect their digital transformation. We dont just build websites and apps—we create competitive advantages.
+                            Since our founding, we&apos;ve been the strategic digital partner that ambitious companies trust to architect their digital transformation. We dont just build websites and apps, we create competitive advantages.
                         </motion.p>
 
-                        <motion.div
+                        {/* <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.8, duration: 0.6 }}
                             className="flex flex-wrap gap-6"
-                        >
-                            <div className="flex items-center space-x-3">
+                        > */}
+                            {/* <div className="flex items-center space-x-3">
                                 <div className="w-12 h-12 bg-cyan-500/20 rounded-full flex items-center justify-center">
                                     <Icon name="Calendar" size={20} className="text-cyan-400" />
                                 </div>
@@ -71,9 +71,9 @@ const HeroSection1 = () => {
                                     <div className="text-2xl font-bold text-white">2019</div>
                                     <div className="text-gray-400 text-sm">Founded</div>
                                 </div>
-                            </div>
+                            </div> */}
 
-                            <div className="flex items-center space-x-3">
+                            {/* <div className="flex items-center space-x-3">
                                 <div className="w-12 h-12 bg-cyan-500/20 rounded-full flex items-center justify-center">
                                     <Icon name="Users" size={20} className="text-cyan-400" />
                                 </div>
@@ -81,9 +81,9 @@ const HeroSection1 = () => {
                                     <div className="text-2xl font-bold text-white">150+</div>
                                     <div className="text-gray-400 text-sm">Projects Delivered</div>
                                 </div>
-                            </div>
+                            </div> */}
 
-                            <div className="flex items-center space-x-3">
+                            {/* <div className="flex items-center space-x-3">
                                 <div className="w-12 h-12 bg-cyan-500/20 rounded-full flex items-center justify-center">
                                     <Icon name="Award" size={20} className="text-cyan-400" />
                                 </div>
@@ -91,8 +91,8 @@ const HeroSection1 = () => {
                                     <div className="text-2xl font-bold text-white">25+</div>
                                     <div className="text-gray-400 text-sm">Industry Awards</div>
                                 </div>
-                            </div>
-                        </motion.div>
+                            </div> */}
+                        {/* </motion.div> */}
                     </motion.div>
 
                     {/* Visual Element */}

@@ -14,10 +14,10 @@ export default function CompanySection() {
                 Strategic Digital Partner for Global Impact
               </h2>
               <p className="text-gray-700 mb-6">
-                Based right here in Australia, we&apos;re a team of passionate innovators driven by a simple goal: to help local businesses succeed in a digital world. We believe that technology should empower, not complicate, and we&apos;re here to be your trusted guide on that journey
+                We&apos;re a team of passionate innovators with a simple mission: helping businesses thrive in the digital world. Our belief is that technology should empower, not complicate and we&apos;re here to be your trusted partner on that journey.
               </p>
               <p className="text-gray-700">
-                Our philosophy is built on strong relationships and a commitment to genuine results. Were not just another vendor; we&apos;re an extension of your team, dedicated to turning your vision into a digital reality.
+                Our approach is built on strong relationships and a commitment to delivering real results. We&apos;re not just another service provider, we work as an extension of your team. dedicated to transforming your vision into digital reality.
               </p>
               {/* <a href="#" className="btn-primary">
                 Know More
