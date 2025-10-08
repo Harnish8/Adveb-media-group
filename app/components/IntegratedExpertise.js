@@ -41,7 +41,7 @@ const IntegratedExpertise = () => {
       icon: Shield,
       title: "IT",
       description: "Build robust foundations and secure future with cutting technology solutions.",
-      link: "/services/it",
+      link: "https://adveb-media-group-it.vercel.app/",
       buttonText: "Learn More",
       gradient: "from-blue-400 via-purple-400 to-indigo-500",
       cardGradient: "from-blue-500/20 via-purple-500/20 to-indigo-500/20",

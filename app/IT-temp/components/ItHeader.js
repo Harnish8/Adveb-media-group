@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -39,11 +40,28 @@ export default function Header() {
           </div>
 
           <div className="hidden md:block">
+            {/* <div className="ml-10 flex items-baseline space-x-8">
+              <a href="" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a>
+              <a href="About" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">About Us</a>
+              <a href="#" className="text-gray-700 hover:text-cyan-500 px-3 py-2 text-sm font-medium">Services</a>
+              <a href="Contact" className="text-gray-700 hover:text-green-600 px-3 py-2 text-sm font-medium">Contact Us</a>
+              <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
+                Get Consultation
+              </button>
+            </div> */}
             <div className="ml-10 flex items-baseline space-x-8">
-              {/* <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a> */}
-              <a href="https://adveb-media-group-it.vercel.app/" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">IT Services</a>
-              <a href="Marketing" className="text-gray-700 hover:text-cyan-500 px-3 py-2 text-sm font-medium" target="_blank">Marketing</a>
-              <a href="#" className="text-gray-700 hover:text-green-600 px-3 py-2 text-sm font-medium">Business Consulting</a>
+              <Link href="/IT" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
+                Home
+              </Link>
+              <Link href="/IT/About" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
+                About Us
+              </Link>
+              <Link href="/IT/Service" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
+                Services
+              </Link>
+              <Link href="/IT/Contact" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">
+                Contact Us
+              </Link>
               <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
                 Get Consultation
               </button>
@@ -60,10 +78,11 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
-              <a href="#" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Home</a>
-              <a href="#" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">IT Services</a>
-              <a href="#" className="text-gray-700 hover:text-cyan-500 block px-3 py-2 text-base font-medium">Marketing</a>
-              <a href="#" className="text-gray-700 hover:text-green-600 px-3 py-2 text-sm font-medium">Business Consulting</a>
+              <a href="/Marketing" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Home</a>
+              <a href="/Marketing/About" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">About Us</a>
+              <Link href="/Marketing/Service" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Services</Link>
+              {/* <a href="/Marketing/Service" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Services</a> */}
+              <a href="/Marketing/Contact" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Contact Us</a>
               <button className="w-full bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md text-sm font-medium mt-2">
                 Get Consultation
               </button>
