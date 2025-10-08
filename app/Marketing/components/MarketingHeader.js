@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <div className="flex items-center">
@@ -22,7 +22,7 @@ export default function Header() {
                   <Image
                     src="/images/logo.jpg"
                     alt="ADVEB Media Group"
-                    width={160}
+                    width={80}
                     height={40}
                     className="object-contain transition-transform group-hover:scale-105"
                   />

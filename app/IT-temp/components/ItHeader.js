@@ -22,7 +22,7 @@ export default function Header() {
                   <Image
                     src="/images/logo.jpg"
                     alt="ADVEB Media Group"
-                    width={160}
+                    width={60}
                     height={40}
                     className="object-contain transition-transform group-hover:scale-105"
                   />
