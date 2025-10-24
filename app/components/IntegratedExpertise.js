@@ -171,7 +171,7 @@ const IntegratedExpertise = () => {
       icon: Handshake,
       title: "Business",
       description: "Optimize operations and lead new opportunities through strategic consulting.",
-      link: "/services/business",
+      link: "/Business",
       buttonText: "Learn More",
       gradient: "from-blue-500 via-blue-600 to-blue-700",
       cardGradient: "from-blue-500/20 via-blue-600/20 to-blue-700/20",
