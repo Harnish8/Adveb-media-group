@@ -30,27 +30,27 @@ export default function ContactForm() {
     <section className="pb-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="text-blue-600 font-semibold mb-2 block">Contact Us</span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Let Us Know About Your Project Idea!
-          </h2>
+          {/* <span className="text-blue-600 font-semibold mb-2 block">Contact Us</span> */}
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                Send Us a Message!
+              </h2>
           {/* <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis vel consequatur tempora atque blanditiis exercitationem incidunt, alias corporis quam assumenda dicta.
           </p> */}
         </div>
         <div className="flex flex-wrap items-center -mx-4 ">
-          <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
+          {/* <div className="w-full lg:w-1/2 px-4 mb-12 lg:mb-0">
             <div className="relative">
 
               <div className="bg-white rounded-xl shadow-md overflow-hidden border border-gray-200">
 
-                {/* Header */}
+                
                 <div className="p-6 border-b border-gray-200">
                   <h3 className="text-xl font-semibold text-gray-800">Our Location</h3>
                   <p className="text-sm text-gray-600 mt-1">{businessInfo.name}</p>
                 </div>
 
-                {/* Map Container */}
+                
                 <div className="h-[23rem]">
                   <iframe
                     width="100%"
@@ -65,8 +65,8 @@ export default function ContactForm() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="w-full lg:w-1/2 px-4">
+          </div> */}
+          <div className="w-full px-4">
             <form className="space-y-6">
               <div>
                 <input

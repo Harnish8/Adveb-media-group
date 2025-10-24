@@ -23,7 +23,7 @@ export default function TrustSection() {
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
           {trustItems.map((item, index) => (
             <div key={index} className="flex flex-col items-center text-center">
-              <div className="text-gray-400 mb-2">{item.icon}</div>
+              <div className="text-blue-600 mb-2">{item.icon}</div>
               <span className="text-sm font-medium text-gray-600">{item.label}</span>
             </div>
           ))}

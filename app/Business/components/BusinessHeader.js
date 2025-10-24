@@ -50,19 +50,19 @@ export default function Header() {
               </button>
             </div> */}
             <div className="ml-10 flex items-baseline space-x-8">
-              <Link href="/Marketing" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold">
+              <Link href="/Business" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold">
                 Home
               </Link>
-              <Link href="/Marketing/About" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold">
+              <Link href="/Business/About" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold">
                 About Us
               </Link>
-              <Link href="/Marketing/Service" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold">
+              <Link href="/Business/Service" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold">
                 Services
               </Link>
-              <Link href="/Marketing/Contact" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold">
+              <Link href="/Business/Contact" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold">
                 Contact Us
               </Link>
-              <Link href="/Marketing/Contact">
+              <Link href="/Business/Contact">
                 <button className="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md text-lg font-semibold transition-colors">
                   Get Consultation
                 </button>
@@ -80,11 +80,11 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
-              <a href="/Marketing" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Home</a>
-              <a href="/Marketing/About" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">About Us</a>
-              <Link href="/Marketing/Service" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Services</Link>
-              {/* <a href="/Marketing/Service" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Services</a> */}
-              <a href="/Marketing/Contact" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Contact Us</a>
+              <a href="/Business" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Home</a>
+              <a href="/Business/About" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">About Us</a>
+              <Link href="/Business/Service" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Services</Link>
+              {/* <a href="/Business/Service" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Services</a> */}
+              <a href="/Business/Contact" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Contact Us</a>
               <button className="w-full bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md text-sm font-medium mt-2">
                 Get Consultation
               </button>

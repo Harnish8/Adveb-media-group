@@ -21,7 +21,7 @@ export default function SuccessStories() {
         { value: "60%", label: "Wait time reduction", color: "text-blue-500" },
         { value: "$2.1M", label: "Annual savings", color: "text-green-500" }
       ],
-      bgGradient: "from-green-100 to-blue-100",
+      bgGradient: "from-blue-100 to-cyan-100",
       emoji: "🏥"
     },
     {
@@ -33,13 +33,13 @@ export default function SuccessStories() {
         { value: "5x", label: "Lead generation", color: "text-blue-500" },
         { value: "18mo", label: "Expansion timeline", color: "text-green-500" }
       ],
-      bgGradient: "from-purple-100 to-pink-100",
+      bgGradient: "from-blue-100 to-cyan-100",
       emoji: "🚀"
     }
   ]
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -73,11 +73,11 @@ export default function SuccessStories() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <button className="bg-blue-900 hover:bg-blue-800 text-white px-8 py-3 rounded-md font-medium transition-colors">
             View All Success Stories
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   )

@@ -467,7 +467,7 @@ const ServiceDetail = () => {
     <div className="min-h-screen bg-white text-gray-900">
       <Header />
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white py-20">
+      <section className="bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-center mb-8">
             <div className="w-20 h-20 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
@@ -476,7 +476,7 @@ const ServiceDetail = () => {
           </div>
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">{service.title}</h1>
-            <p className="text-xl md:text-2xl max-w-4xl mx-auto text-white/90">
+            <p className="text-xl md:text-2xl max-w-4xl mx-auto text-white">
               {service.description}
             </p>
           </div>
@@ -484,7 +484,7 @@ const ServiceDetail = () => {
       </section>
 
       {/* Service Overview */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
@@ -523,8 +523,8 @@ const ServiceDetail = () => {
               <div className="space-y-3">
                 {service.features.slice(0, 6).map((feature, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-                    <span className="text-gray-600">{feature}</span>
+                    <CheckCircle className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" />
+                    <span className="text-gray-600 text-base">{feature}</span>
                   </div>
                 ))}
               </div>
@@ -534,7 +534,7 @@ const ServiceDetail = () => {
       </section>
 
       {/* Features & Benefits */}
-      <section className="py-20 bg-gray-100">
+      <section className="pb-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Complete Features */}
@@ -546,8 +546,8 @@ const ServiceDetail = () => {
               <div className="space-y-3">
                 {service.features.map((feature, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
-                    <span className="text-gray-600 text-sm">{feature}</span>
+                    <CheckCircle className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" />
+                    <span className="text-gray-600 text-base">{feature}</span>
                   </div>
                 ))}
               </div>
@@ -562,8 +562,8 @@ const ServiceDetail = () => {
               <div className="space-y-3">
                 {service.benefits.map((benefit, index) => (
                   <div key={index} className="flex items-center space-x-3">
-                    <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
-                    <span className="text-gray-600 text-sm">{benefit}</span>
+                    <CheckCircle className="w-6 h-6 text-blue-600 mr-2 flex-shrink-0" />
+                    <span className="text-gray-600 text-base">{benefit}</span>
                   </div>
                 ))}
               </div>
@@ -573,7 +573,7 @@ const ServiceDetail = () => {
       </section>
 
       {/* Technologies */}
-      <section className="py-20 bg-gray-50">
+      <section className="pb-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Technologies We Use</h2>
@@ -584,8 +584,8 @@ const ServiceDetail = () => {
 
           <div className="flex flex-wrap justify-center gap-4">
             {service.technologies.map((tech, index) => (
-              <div key={index} className="bg-gray-200 px-6 py-3 rounded-full">
-                <span className="text-gray-900 font-medium">{tech}</span>
+              <div key={index} className="bg-blue-600 px-6 py-3 rounded-full">
+                <span className="text-white font-semibold">{tech}</span>
               </div>
             ))}
           </div>

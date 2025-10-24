@@ -7,7 +7,7 @@ const HeroSection = () => {
   console.log('Hero component rendered')
   
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white">
+    <section className="relative overflow-hidden bg-gradient-to-br from-blue-700 via-blue-600 to-blue-500 text-white">
       {/* Enhanced Particle Effect Background */}
       {/* <div className="absolute inset-0 opacity-40">
         <div className="absolute top-20 left-20 w-3 h-3 bg-cyan-400 rounded-full animate-pulse"></div>
@@ -46,12 +46,12 @@ const HeroSection = () => {
         <div className="max-w-4xl animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight animate-slide-up">
             Adveb Media Group:<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 animate-gradient-x">
+            <span className="bg-clip-text bg-gradient-to-r from-white-400 via-white-400 to-white-400 animate-gradient-x">
               Three Domains, One Vision
             </span>
           </h1>
           
-          <p className="text-lg md:text-xl text-gray-200 max-w-3xl animate-slide-up delay-300">
+          <p className="text-lg md:text-xl text-white-200 max-w-3xl animate-slide-up delay-300">
             Discover how our integrated approach transforms businesses across IT, marketing growth, and strategic consulting.
           </p>
           

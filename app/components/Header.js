@@ -7,7 +7,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <header className="bg-white shadow-sm top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
@@ -41,10 +41,10 @@ export default function Header() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               {/* <a href="#" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Home</a> */}
-              <a href="https://adveb-media-group-it.vercel.app/" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium" target="_blank">IT Services</a>
-              <a href="Marketing" className="text-gray-700 hover:text-cyan-500 px-3 py-2 text-sm font-medium" target="_blank">Marketing</a>
-              <a href="#" className="text-gray-700 hover:text-green-600 px-3 py-2 text-sm font-medium" target="_blank">Business Consulting</a>
-              <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
+              <a href="https://adveb-media-group-it.vercel.app/" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold" target="_blank">IT Services</a>
+              <a href="Marketing" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold" target="_blank">Marketing</a>
+              <a href="Business" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold" target="_blank">Business Consulting</a>
+              <button className="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md text-lg font-semibold transition-colors">
                 Get Consultation
               </button>
             </div>
@@ -62,8 +62,8 @@ export default function Header() {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
               <a href="#" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Home</a>
               <a href="https://adveb-media-group-it.vercel.app/" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">IT Services</a>
-              <a href="Marketing" className="text-gray-700 hover:text-cyan-500 block px-3 py-2 text-base font-medium">Marketing</a>
-              <a href="#" className="text-gray-700 hover:text-green-600 px-3 py-2 text-sm font-medium">Business Consulting</a>
+              <a href="Marketing" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Marketing</a>
+              <a href="Business" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium">Business Consulting</a>
               <button className="w-full bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md text-sm font-medium mt-2">
                 Get Consultation
               </button>
