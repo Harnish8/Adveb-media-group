@@ -95,13 +95,13 @@ export default function Home() {
               Partner with industry experts to drive growth, innovation, and sustainable success for your organization.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact">
+              <Link href="/Business/Contact">
                 <Button size="lg" className="bg-white !text-blue-800 hover:bg-gray-100 text-lg px-8">
                   Book Free Consultation
                   <ArrowRight className="ml-2" size={20} />
                 </Button>
               </Link>
-              <Link className='text-blue-800' href="/services">
+              <Link className='text-blue-800' href="/Business/Service">
                 <Button size="lg" className="bg-white !text-blue-800 hover:bg-gray-100 text-lg px-8">
                   Explore Services
                 </Button>
@@ -147,7 +147,7 @@ export default function Home() {
             })}
           </div>
           <div className="text-center mt-8">
-            <Link href="/services">
+            <Link href="/Business/Service">
               <Button size="lg" className="bg-blue-800 hover:bg-blue-700">
                 View All Services
                 <ArrowRight className="ml-2" size={20} />

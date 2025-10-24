@@ -80,7 +80,7 @@ export default function BusinessStrategy() {
               <p className="text-xl text-gray-200 mb-8">
                 Transform your vision into actionable strategies that drive sustainable growth and competitive advantage.
               </p>
-              <Link href="/contact">
+              <Link href="/Business/Contact">
                 <button size="lg" className="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-5 [&_svg]:shrink-0 shadow-md h-10 rounded-md bg-white text-blue-900 hover:bg-gray-100 text-lg px-8">
                   Start Your Strategy Journey
                   <ArrowRight className="ml-2" size={20} />

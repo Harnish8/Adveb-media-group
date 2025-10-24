@@ -85,7 +85,7 @@ export default function Header() {
               <Link href="/Business/Service" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Services</Link>
               {/* <a href="/Business/Service" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Services</a> */}
               <a href="/Business/Contact" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Contact Us</a>
-              <button className="w-full bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md text-sm font-medium mt-2">
+              <button className="w-full bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium mt-2">
                 Get Consultation
               </button>
             </div>

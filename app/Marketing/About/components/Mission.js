@@ -92,7 +92,7 @@ const Mission = () => {
             transition={{ duration: 0.6 }}
             className="space-y-4"
           >
-            <div className="inline-flex items-center space-x-2 bg-cyan-50 text-cyan-500 px-4 py-2 rounded-full text-sm font-medium">
+            <div className="inline-flex items-center space-x-2 text-blue-600 px-4 py-2 rounded-full text-sm font-medium">
               <AppIcon name="Compass" size={16} />
               <span>The Adveb Solutions Story</span>
             </div>
