@@ -6,6 +6,18 @@ import Image from 'next/image'
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact-section');
+    if (contactSection) {
+      contactSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+    // Close mobile menu after clicking
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="bg-white shadow-sm top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -44,7 +56,7 @@ export default function Header() {
               <a href="https://adveb-media-group-it.vercel.app/" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold" target="_blank">IT Services</a>
               <a href="Marketing" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold" target="_blank">Marketing</a>
               <a href="Business" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-lg font-semibold" target="_blank">Business Consulting</a>
-              <button className="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md text-lg font-semibold transition-colors">
+              <button onClick={scrollToContact} className="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md text-lg font-semibold transition-colors">
                 Get Consultation
               </button>
             </div>
@@ -63,8 +75,8 @@ export default function Header() {
               <a href="#" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium">Home</a>
               <a href="https://adveb-media-group-it.vercel.app/" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium" target="_blank">IT Services</a>
               <a href="Marketing" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium" target="_blank">Marketing</a>
-              <a href="Business" className="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium" target="_blank">Business Consulting</a>
-              <button className="w-full bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium mt-2">
+              <a href="Business" className="text-gray-700 hover:text-blue-600 block px-3 py-2 text-base font-medium" target="_blank">Business Consulting</a>
+              <button onClick={scrollToContact} className="w-full bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium mt-2">
                 Get Consultation
               </button>
             </div>
