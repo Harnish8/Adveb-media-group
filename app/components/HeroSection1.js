@@ -1,37 +1,27 @@
 
 "use client";
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const HeroSection = () => {
   console.log('Hero component rendered')
-  
-  
+
+
   return (
     <section className="relative overflow-hidden bg-white text-gray-900">
 
-      {/* <div
-        className="md:block absolute inset-0 flex items-center justify-end pr-8"
-        style={{ zIndex: 0 }} // Ensure it's behind the main content
-      >
-        <div className="animated-logo" style={{ backgroundImage: 'url("images/logo.png")' }}></div>
-      </div> */}
-      
 
-      
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16-custom lg:py-32">
-        <div className="max-w-4xl animate-fade-in">
+      <div className="relative flex flex-wrap max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16-custom lg:pt-8 justify-center">
+        <div className="flex flex-col justify-center max-w-4xl animate-fade-in text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight animate-slide-up">
-            Adveb Media Group:<br />
-            <span className="bg-clip-text bg-gradient-to-r from-white-400 via-white-400 to-white-400 animate-gradient-x">
-              Three Domains, One Vision
-            </span>
+            Adveb Media Group<br />Three Domains<br />One Vision
           </h1>
-          
+
           <p className="text-lg md:text-xl text-white-200 max-w-3xl animate-slide-up delay-300">
             Discover how our integrated approach transforms businesses across IT, marketing growth, and strategic consulting.
           </p>
-          
+
           {/* <Link 
             href="/solutions"
             className="inline-flex items-center justify-center bg-gradient-to-r from-cyan-500 to-blue-500 border-0 text-white hover:from-cyan-600 hover:to-blue-600 transition-all duration-500 px-8 py-3 text-lg font-semibold rounded-full animate-slide-up delay-500 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/25"
@@ -39,8 +29,23 @@ const HeroSection = () => {
             Explore Our Solutions
           </Link> */}
         </div>
+
+        <div className="flex items-center justify-center ">
+          <div className="animated-logo">
+            <Image 
+              src="/images/logo.png"
+              alt="Adveb Media Group Logo"
+              fill
+              style={{ objectFit: 'contain' }}
+              priority
+            />
+          </div>
+        </div>
+
       </div>
-      
+
+
+
       <style jsx>{`
 
       @keyframes logo-spin-scale {
@@ -64,7 +69,6 @@ const HeroSection = () => {
           height: 30vw;
           max-width: 600px; /* Cap size on desktop */
           max-height: 600px;
-          background-image: url('/adveb_logo_icon_white.png'); /* **IMPORTANT: Use a white/single-color version of your logo icon here for best contrast on blue** */
           background-size: contain;
           background-repeat: no-repeat;
           background-position: center;
