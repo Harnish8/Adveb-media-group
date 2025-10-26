@@ -13,10 +13,20 @@ const HeroSection = () => {
 
 
       <div className="relative flex flex-wrap max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16-custom lg:pt-8 justify-center">
-        <div className="flex flex-col justify-center max-w-4xl animate-fade-in text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight animate-slide-up">
+        <div className="flex flex-col justify-center max-w-4xl animate-fade-in text-center items-center">
+          {/* <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight animate-slide-up">
             Adveb Media Group<br />Three Domains<br />One Vision
-          </h1>
+          </h1> */}
+
+          <div className='logo-basic flex items-center justify-center'>
+            <Image 
+              src="/images/logo.png"
+              alt="Adveb Media Group Logo"
+              width={500}
+              height={500}
+              priority
+            />
+          </div>
 
           <p className="text-lg md:text-xl text-white-200 max-w-3xl animate-slide-up delay-300">
             Discover how our integrated approach transforms businesses across IT, marketing growth, and strategic consulting.
@@ -30,7 +40,7 @@ const HeroSection = () => {
           </Link> */}
         </div>
 
-        <div className="flex items-center justify-center ">
+        {/* <div className="flex items-center justify-center ">
           <div className="animated-logo">
             <Image 
               src="/images/logo.png"
@@ -40,7 +50,7 @@ const HeroSection = () => {
               priority
             />
           </div>
-        </div>
+        </div> */}
 
       </div>
 
@@ -64,10 +74,18 @@ const HeroSection = () => {
           }
         }
 
-        .animated-logo {
+        .logo-basic {
           width: 30vw; /* Large size relative to viewport */
           height: 30vw;
-          max-width: 600px; /* Cap size on desktop */
+          max-width: 200px; /* Cap size on desktop */
+          max-height: 200px;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+        .animated-logo {
+          height: 30vw;
           max-height: 600px;
           background-size: contain;
           background-repeat: no-repeat;

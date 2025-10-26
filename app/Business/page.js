@@ -43,25 +43,25 @@ export default function Home() {
       title: 'Business Strategy & Growth',
       description: 'Strategic planning and growth roadmaps to accelerate your business success.',
       icon: TrendingUp,
-      href: '/services/business-strategy',
+      href: '/Business/Service/business-strategy',
     },
     {
       title: 'Digital Transformation',
       description: 'Modernize operations and embrace digital innovation for competitive advantage.',
       icon: Zap,
-      href: '/services/digital-transformation',
+      href: '/Business/Service/digital-transformation',
     },
     {
       title: 'Marketing & Brand Strategy',
       description: 'Build powerful brands and marketing strategies that drive customer engagement.',
       icon: Users,
-      href: '/services/marketing-strategy',
+      href: '/Business/Service/marketing-strategy',
     },
     {
       title: 'Financial Advisory',
       description: 'Expert financial planning and advisory services to optimize your financial performance.',
       icon: Shield,
-      href: '/services/financial-advisory',
+      href: '/Business/Service/financial-advisory',
     },
   ];
 
