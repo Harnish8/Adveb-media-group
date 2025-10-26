@@ -98,7 +98,7 @@ const UnifiedBrandStory = () => {
             </div> */}
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
               How Each Service{' '}
-              <span className="bg-gradient-to-r from-blue-600 via-cyan-500 to-green-600 bg-clip-text text-transparent">
+              <span className="bg-clip-text">
                 Amplifies
               </span>{' '}
               the Others
