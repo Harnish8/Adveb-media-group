@@ -107,7 +107,7 @@ const CompanySection = () => {
     {
       icon: Globe,
       title: "Web Development",
-      description: "We build modern, responsive, and SEO-friendly websites that drive traffic and turn visitors into customers.",
+      description: "We build modern, responsive, and SEO friendly websites that drive traffic and turn visitors into customers.",
       link: "/services/web-development",
       isGradient: false,
       gradientCard: false,
@@ -116,7 +116,7 @@ const CompanySection = () => {
     {
       icon: Smartphone,
       title: "App Development",
-      description: "We create intuitive, high-performance mobile apps for iOS and Android to connect you with your audience.",
+      description: "We create intuitive, high performance mobile apps for iOS and Android to connect you with your audience.",
       link: "/services/app-development",
       isGradient: false,
       gradientCard: false,
@@ -134,7 +134,7 @@ const CompanySection = () => {
     {
       icon: Search,
       title: "SEO",
-      description: "Improve your search visibility and organic traffic with expert on-page and technical SEO strategies.",
+      description: "Improve your search visibility and organic traffic with expert on page and technical SEO strategies.",
       link: "/services/seo",
       isGradient: false,
       gradientCard: false,
@@ -170,7 +170,7 @@ const CompanySection = () => {
     {
       icon: Feather,
       title: "Content Writing",
-      description: "We write compelling, SEO-optimized content that engages your audience and establishes your brand authority.",
+      description: "We write compelling, SEO optimized content that engages your audience and establishes your brand authority.",
       link: "/services/content-writing",
       isGradient: false,
       gradientCard: false,

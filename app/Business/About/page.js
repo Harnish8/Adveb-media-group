@@ -1,6 +1,6 @@
 "use client";
 import Header from '../components/BusinessHeader'
-import Footer from '../../components/Footer'
+import Footer from '../components/BusinessFooter'
 
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
@@ -45,23 +45,23 @@ export default function About() {
   const values = [
     {
       icon: Target,
-      title: 'Results-Driven',
+      title: 'Results Driven',
       description: 'We focus on delivering measurable outcomes that directly impact your bottom line and business objectives.',
     },
     {
       icon: Award,
       title: 'Excellence',
-      description: 'Our commitment to quality and expertise ensures you receive world-class consulting services every time.',
+      description: 'Our commitment to quality and expertise ensures you receive world class consulting services every time.',
     },
     {
       icon: Users,
       title: 'Partnership',
-      description: 'We work alongside you as trusted advisors, building long-term relationships based on mutual success.',
+      description: 'We work alongside you as trusted advisors, building long term relationships based on mutual success.',
     },
     {
       icon: Lightbulb,
       title: 'Innovation',
-      description: 'We embrace cutting-edge strategies and technologies to keep your business ahead of the competition.',
+      description: 'We embrace cutting edge strategies and technologies to keep your business ahead of the competition.',
     },
   ];
 
@@ -197,7 +197,7 @@ export default function About() {
                   Tailored Solutions
                 </h3>
                 <p className="text-gray-700">
-                  We dont believe in one-size-fits-all approaches. Every engagement is customized to address your specific challenges and opportunities.
+                  We dont believe in one size fits all approaches. Every engagement is customized to address your specific challenges and opportunities.
                 </p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg">
@@ -205,7 +205,7 @@ export default function About() {
                   Proven Methodology
                 </h3>
                 <p className="text-gray-700">
-                  Our structured approach combines data-driven analysis with strategic thinking to deliver sustainable results.
+                  Our structured approach combines data driven analysis with strategic thinking to deliver sustainable results.
                 </p>
               </div>
               <div className="bg-gray-50 p-6 rounded-lg">

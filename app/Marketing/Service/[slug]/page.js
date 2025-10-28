@@ -3,7 +3,7 @@
 import { useParams } from "next/navigation";
 import Link from "next/link";
 import Header from '../../components/MarketingHeader'; // Add this import
-import Footer from '../../../components/Footer';
+import Footer from '../../components/MarketingFooter';
 import {
   Globe,
   Cloud,
@@ -276,14 +276,14 @@ const ServiceDetail = () => {
     "web-development": {
       icon: Globe,
       title: "Web Development",
-      description: "Build a powerful online presence with a custom, high-performing website that truly represents your brand.",
-      longDescription: "Ready to stand out in the Australian market? Our web development services go beyond just code. We craft beautiful, responsive, and SEO-friendly websites that not only look incredible but also drive results. Whether you're a small business in Sydney needing a showcase site or a national e-commerce brand, we build a digital home that's fast, secure, and ready to grow with you.",
+      description: "Build a powerful online presence with a custom, high performing website that truly represents your brand.",
+      longDescription: "Ready to stand out in the Australian market? Our web development services go beyond just code. We craft beautiful, responsive, and SEO friendly websites that not only look incredible but also drive results. Whether you're a small business in Sydney needing a showcase site or a national e-commerce brand, we build a digital home that's fast, secure, and ready to grow with you.",
       features: [
-        "Custom, Mobile-First Web Design",
+        "Custom, Mobile First Web Design",
         "E-commerce & Online Store Solutions",
         "WordPress & CMS Development",
-        "Lightning-Fast Performance Optimisation",
-        "SEO-Ready Architecture",
+        "Lightning Fast Performance Optimisation",
+        "SEO Ready Architecture",
         "Ongoing Maintenance & Support"
       ],
       technologies: ["React", "Next.js", "WordPress", "Shopify"],
@@ -299,10 +299,10 @@ const ServiceDetail = () => {
       icon: Smartphone,
       title: "App Development",
       description: "Connect with your customers on the go with a custom mobile app for iOS and Android.",
-      longDescription: "In a mobile-first world, an app is your direct line to customers. We design and build intuitive, user-friendly mobile applications that solve problems and create value. From a local service app for Melbourne to a global enterprise tool, we handle the full development lifecycle to deliver an app that your users will love and a solution that drives your business forward.",
+      longDescription: "In a mobile first world, an app is your direct line to customers. We design and build intuitive, user friendly mobile applications that solve problems and create value. From a local service app for Melbourne to a global enterprise tool, we handle the full development lifecycle to deliver an app that your users will love and a solution that drives your business forward.",
       features: [
         "Native iOS & Android App Development",
-        "Cross-Platform Solutions (React Native)",
+        "Cross Platform Solutions (React Native)",
         "Intuitive UI/UX Design",
         "App Store Optimisation (ASO)",
         "Secure API Integration",
@@ -320,7 +320,7 @@ const ServiceDetail = () => {
       icon: Mail,
       title: "Email Marketing",
       description: "Build a loyal customer base and drive repeat business with smart, personalised email campaigns.",
-      longDescription: "Email is still one of the most powerful tools for growing a business. Our email marketing services help you nurture leads, connect with your audience, and keep them coming back for more. We create compelling newsletters, automated welcome sequences, and targeted campaigns that feel personal and genuine—not like just another sales pitch. It's about building relationships, one email at a time.",
+      longDescription: "Email is still one of the most powerful tools for growing a business. Our email marketing services help you nurture leads, connect with your audience, and keep them coming back for more. We create compelling newsletters, automated welcome sequences, and targeted campaigns that feel personal and genuine not like just another sales pitch. It's about building relationships, one email at a time.",
       features: [
         "Custom Email Template Design",
         "Automated Email Sequences",
@@ -333,7 +333,7 @@ const ServiceDetail = () => {
       benefits: [
         "Boost customer retention and loyalty",
         "Generate more sales from your existing customers",
-        "Keep your brand top-of-mind",
+        "Keep your brand top of mind",
         "Get valuable insights into your audience"
       ]
     },
@@ -341,12 +341,12 @@ const ServiceDetail = () => {
       icon: Search,
       title: "Search Engine Optimisation (SEO)",
       description: "Get found on Google by the right people at the right time. Your business deserves to be at the top.",
-      longDescription: "Tired of being on page two? Our SEO services are designed to get your website noticed by potential customers in Australia. We do the heavy lifting from keyword research and on-page optimisation to building quality backlinks. Our goal is to increase your organic traffic, improve your search rankings, and turn your website into a powerful lead-generating machine. We'll make sure when someone searches for 'web developer Sydney' or 'digital marketing Melbourne,' they find you.",
+      longDescription: "Tired of being on page two? Our SEO services are designed to get your website noticed by potential customers in Australia. We do the heavy lifting from keyword research and on page optimisation to building quality backlinks. Our goal is to increase your organic traffic, improve your search rankings, and turn your website into a powerful lead generating machine. We'll make sure when someone searches for 'web developer Sydney' or 'digital marketing Melbourne,' they find you.",
       features: [
         "Local & National SEO Strategies",
-        "In-Depth Keyword Research",
-        "On-Page & Technical SEO Audits",
-        "High-Quality Content Strategy",
+        "In Depth Keyword Research",
+        "On Page & Technical SEO Audits",
+        "High Quality Content Strategy",
         "Link Building & Authority Building",
         "Regular Performance Reporting"
       ],
@@ -354,8 +354,8 @@ const ServiceDetail = () => {
       benefits: [
         "Increase organic website traffic",
         "Improve your search engine rankings",
-        "Attract highly-qualified leads",
-        "Gain long-term visibility and authority"
+        "Attract highly qualified leads",
+        "Gain long term visibility and authority"
       ]
     },
     "graphic-design": {
@@ -424,14 +424,14 @@ const ServiceDetail = () => {
     "content-writing": {
       icon: Feather,
       title: "Content Writing",
-      description: "Fuel your digital marketing with compelling, high-quality content that engages your audience and boosts your SEO.",
-      longDescription: "Every piece of content you put out—from your website's homepage to a blog post—is a chance to tell your story and connect with your audience. Our content writers craft compelling, human-friendly copy that not only informs and entertains but is also optimised to rank well on Google. We help you establish your voice as a trusted authority, attract organic traffic, and convert visitors into customers with words that matter.",
+      description: "Fuel your digital marketing with compelling, high quality content that engages your audience and boosts your SEO.",
+      longDescription: "Every piece of content you put out from your website's homepage to a blog post is a chance to tell your story and connect with your audience. Our content writers craft compelling, human friendly copy that not only informs and entertains but is also optimised to rank well on Google. We help you establish your voice as a trusted authority, attract organic traffic, and convert visitors into customers with words that matter.",
       features: [
         "Website Copy & Landing Pages",
         "Blog Posts & Articles",
         "Case Studies & Whitepapers",
         "Email & Newsletter Copy",
-        "SEO-Driven Content Strategy",
+        "SEO Driven Content Strategy",
         "Editing & Proofreading"
       ],
       technologies: ["Google Docs", "Grammarly", "SEO Tools"],

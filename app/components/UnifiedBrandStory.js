@@ -161,7 +161,7 @@ const UnifiedBrandStory = () => {
                 Our Professional Services
               </h3>
               <p className="text-lg text-gray-600">
-                Versatile yet specialized, comprehensive yet focused—every tool working in perfect harmony.
+                Versatile yet specialized, comprehensive yet focused every tool working in perfect harmony.
               </p>
             </div>
 

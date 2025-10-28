@@ -9,7 +9,7 @@ const brandStory = {
     title: "Our Mission",
     icon: "Target",
     content: `We exist to transform businesses through the convergence of expertise. In an interconnected world, 
-              success requires more than isolated solutions—it demands integrated excellence across technology, 
+              success requires more than isolated solutions it demands integrated excellence across technology, 
               marketing, and strategy.`,
     highlights: [
       "Integrated expertise across all business functions",
@@ -21,20 +21,20 @@ const brandStory = {
   approach: {
     title: "Our Approach",
     icon: "Zap",
-    content: `Our professional services—versatile yet specialized, comprehensive yet focused. 
+    content: `Our professional services versatile yet specialized, comprehensive yet focused. 
               We don't just deliver services; we create ecosystems where IT infrastructure enables marketing excellence, 
               marketing insights drive business strategy, and business goals shape technology decisions.`,
     highlights: [
-      "Cross-functional collaboration from day one",
+      "Cross functional collaboration from day one",
       "Holistic solutions that amplify each other",
-      "Data-driven insights across all domains",
+      "Data driven insights across all domains",
       "Scalable frameworks for sustainable growth"
     ]
   },
   values: {
     title: "Our Values",
     icon: "Heart",
-    content: `Empowerment through expertise defines everything we do. Our clients don't just hire services—they gain 
+    content: `Empowerment through expertise defines everything we do. Our clients don't just hire services they gain 
               strategic allies who understand that every decision impacts the entire business ecosystem.`,
     highlights: [
       "Expertise backed by proven methodologies",

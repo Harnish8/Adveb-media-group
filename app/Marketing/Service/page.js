@@ -1,5 +1,5 @@
 import Header from '../components/MarketingHeader'
-import Footer from '../../components/Footer'
+import Footer from '../components/MarketingFooter'
 
 
 import TechnologySection from './components/TechnologySection'

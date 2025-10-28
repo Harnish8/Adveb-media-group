@@ -8,7 +8,8 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white shadow-sm top-0 z-50">
+    // <header className="bg-white shadow-sm top-0 z-50">
+    <header className="top-0 left-0 w-full z-50 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
@@ -20,7 +21,7 @@ export default function Header() {
                 <span className="text-xl font-bold text-gray-900">Adveb</span> */}
                 <div className="relative">
                   <Image
-                    src="/images/logo.jpg"
+                    src="/images/logo.png"
                     alt="ADVEB Media Group"
                     width={80}
                     height={40}

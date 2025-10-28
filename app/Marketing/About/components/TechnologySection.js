@@ -45,10 +45,10 @@ export default function TechnologySection() {
                 Leading the Way in Digital Innovation
               </h2>
               <p className="text-gray-600">
-                At Adveb, our core mission is to empower businesses with the technology and strategy they need to stay ahead. We are a team of pioneers, passionately committed to exploring and mastering the latest digital trends to build solutions that don&apos;t just solve today&apos;s problems but also anticipate tomorrow&apos;s needs. We believe true success is found in a future-ready approach.
+                At Adveb, our core mission is to empower businesses with the technology and strategy they need to stay ahead. We are a team of pioneers, passionately committed to exploring and mastering the latest digital trends to build solutions that don&apos;t just solve today&apos;s problems but also anticipate tomorrow&apos;s needs. We believe true success is found in a future ready approach.
               </p>
               <p className="text-gray-600">
-                We are experts in turning complex challenges into clear, actionable digital roadmaps. By blending creative thinking with data-driven insights, we craft custom solutions that enhance your brand, streamline your operations, and create new opportunities for growth. Your success is our mission. Let&apos;s start the journey.
+                We are experts in turning complex challenges into clear, actionable digital roadmaps. By blending creative thinking with data driven insights, we craft custom solutions that enhance your brand, streamline your operations, and create new opportunities for growth. Your success is our mission. Let&apos;s start the journey.
               </p>
               {/* <div>
                 <Link href="/contact" className="btn-primary">

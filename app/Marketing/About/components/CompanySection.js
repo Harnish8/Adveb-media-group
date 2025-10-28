@@ -17,7 +17,7 @@ export default function CompanySection() {
                 At Adveb, we believe in the power of partnership. We&apos;re a team of dedicated digital experts committed to helping businesses like yours thrive in a competitive market. Our passion is crafting bespoke solutions that not only meet your needs but also drive tangible, lasting results.
               </p>
               <p className="text-gray-600">
-                We don&apos;t just work for you; we work with you. By taking the time to truly understand your vision, we become an extension of your team, providing the strategic guidance and technical expertise you need to succeed online.
+                We don&apos;t just work for you, we work with you. By taking the time to truly understand your vision, we become an extension of your team, providing the strategic guidance and technical expertise you need to succeed online.
               </p>
             </div>
           </div>

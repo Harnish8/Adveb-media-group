@@ -46,7 +46,7 @@ export default function SuccessStories() {
             Integrated Success Stories
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            See how our multi-domain approach delivers measurable business transformations across industries.
+            See how our multi domain approach delivers measurable business transformations across industries.
           </p>
         </div>
 

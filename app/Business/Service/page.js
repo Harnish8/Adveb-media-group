@@ -1,5 +1,5 @@
 import Header from '../components/BusinessHeader'
-import Footer from '../../components/Footer'
+import Footer from '../components/BusinessFooter'
 
 
 // import TechnologySection from './components/TechnologySection'
@@ -49,14 +49,14 @@ export default function Services() {
   const services = [
     {
       title: 'Business Strategy & Growth',
-      description: 'Develop comprehensive strategies that drive sustainable growth and competitive advantage. Our strategic planning services help you identify opportunities, overcome challenges, and achieve your long-term business objectives.',
+      description: 'Develop comprehensive strategies that drive sustainable growth and competitive advantage. Our strategic planning services help you identify opportunities, overcome challenges, and achieve your long term business objectives.',
       icon: TrendingUp,
       href: '/Business/Service/business-strategy',
       features: ['Strategic Planning', 'Market Analysis', 'Growth Roadmaps', 'Competitive Positioning'],
     },
     {
       title: 'Digital Transformation',
-      description: 'Modernize your operations and embrace digital innovation to stay ahead in today\'s technology-driven marketplace. We guide you through every step of your digital journey.',
+      description: 'Modernize your operations and embrace digital innovation to stay ahead in today\'s technology driven marketplace. We guide you through every step of your digital journey.',
       icon: Zap,
       href: '/Business/Service/digital-transformation',
       features: ['Digital Strategy', 'Technology Roadmap', 'Change Management', 'Process Automation'],

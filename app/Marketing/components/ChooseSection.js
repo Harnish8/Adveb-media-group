@@ -12,12 +12,12 @@ const accordionItems = [
   },
   {
     title: "Update Technology",
-    content: "We know the digital landscape moves fast. That's why we're dedicated to mastering the latest trends, using cutting-edge tools to create solutions that not only work for you today but are also ready for tomorrow. Our goal is to give your business a sustainable advantage.",
+    content: "We know the digital landscape moves fast. That's why we're dedicated to mastering the latest trends, using cutting edge tools to create solutions that not only work for you today but are also ready for tomorrow. Our goal is to give your business a sustainable advantage.",
     icon: <Shield className="text-blue-600 w-6 h-6" />,
   },
   {
     title: "Experienced Team",
-    content: "Our team isn't just experienced, we are passionate problem-solvers. We've successfully completed hundreds of projects, bringing a wealth of knowledge and a can do attitude to every challenge we face.",
+    content: "Our team isn't just experienced, we are passionate problem solvers. We've successfully completed hundreds of projects, bringing a wealth of knowledge and a can do attitude to every challenge we face.",
     icon: <CheckCircle className="text-blue-600 w-6 h-6" />,
   },
   {

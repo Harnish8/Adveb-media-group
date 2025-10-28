@@ -1,6 +1,6 @@
 "use client";
 import Header from './components/BusinessHeader'
-import Footer from '../components/Footer'
+import Footer from './components/BusinessFooter'
 
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
@@ -67,11 +67,11 @@ export default function Home() {
 
   const features = [
     'Proven track record of success',
-    'Industry-leading expertise',
+    'Industry leading expertise',
     'Customized solutions for your needs',
-    'Data-driven decision making',
+    'Data driven decision making',
     'Ongoing support and partnership',
-    'Results-focused approach',
+    'Results focused approach',
   ];
 
   return (

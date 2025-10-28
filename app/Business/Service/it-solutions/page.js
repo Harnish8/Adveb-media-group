@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Header from '../../components/BusinessHeader'
-import Footer from '../../../components/Footer'
+import Footer from '../../components/BusinessFooter'
 import { Card, CardContent } from '../../components/Card';
 import Image from 'next/image';
 import { ArrowRight, CheckCircle, Server, Cloud, Shield, Cpu } from 'lucide-react';

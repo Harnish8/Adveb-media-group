@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Header from '../../components/BusinessHeader'
-import Footer from '../../../components/Footer'
+import Footer from '../../components/BusinessFooter'
 import { Card, CardContent } from '../../components/Card';
 import Image from 'next/image';
 import { ArrowRight, CheckCircle, Target, TrendingUp, Users, Lightbulb } from 'lucide-react';
@@ -38,7 +38,7 @@ export default function BusinessStrategy() {
     'Clear strategic direction and roadmap',
     'Improved competitive positioning',
     'Accelerated revenue growth',
-    'Enhanced decision-making capabilities',
+    'Enhanced decision making capabilities',
     'Better resource allocation',
     'Sustainable competitive advantage',
   ];

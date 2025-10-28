@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Header from '../../components/BusinessHeader'
-import Footer from '../../../components/Footer'
+import Footer from '../../components/BusinessFooter'
 import { Card, CardContent } from '../../components/Card';
 import Image from 'next/image';
 import { ArrowRight, CheckCircle, DollarSign, PieChart, Shield, TrendingUp } from 'lucide-react';
@@ -30,7 +30,7 @@ export default function FinancialAdvisory() {
     {
       icon: DollarSign,
       title: 'Performance Analysis',
-      description: 'In-depth financial analysis to improve profitability and efficiency.',
+      description: 'In depth financial analysis to improve profitability and efficiency.',
     },
   ];
 
@@ -38,7 +38,7 @@ export default function FinancialAdvisory() {
     'Improved financial performance',
     'Better risk management',
     'Optimized cash flow',
-    'Enhanced decision-making',
+    'Enhanced decision making',
     'Increased profitability',
     'Sustainable growth funding',
   ];

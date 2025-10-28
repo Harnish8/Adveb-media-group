@@ -460,14 +460,14 @@ const TechnologyStack = () => {
       technologies: [
         {
           name: "React.js",
-          description: "Component-based library for building interactive UIs",
+          description: "Component based library for building interactive UIs",
           icon: "⚛️",
           proficiency: 95,
           projects: "50+ projects"
         },
         {
           name: "Next.js", 
-          description: "Full-stack React framework with SSR capabilities",
+          description: "Full stack React framework with SSR capabilities",
           icon: "▲",
           proficiency: 92,
           projects: "40+ projects"
@@ -488,7 +488,7 @@ const TechnologyStack = () => {
         },
         {
           name: "Tailwind CSS",
-          description: "Utility-first CSS framework for rapid UI development",
+          description: "Utility first CSS framework for rapid UI development",
           icon: "🎨",
           proficiency: 92,
           projects: "35+ projects"
@@ -506,7 +506,7 @@ const TechnologyStack = () => {
       title: "Backend Development", 
       icon: Server,
       count: "4 technologies",
-      description: "Robust server-side solutions and API development",
+      description: "Robust server side solutions and API development",
       technologies: [
         {
           name: "Node.js",
@@ -553,21 +553,21 @@ const TechnologyStack = () => {
         },
         {
           name: "PostgreSQL",
-          description: "Advanced open-source relational database",
+          description: "Advanced open source relational database",
           icon: "🐘",
           proficiency: 87,
           projects: "30+ projects"
         },
         {
           name: "Redis",
-          description: "In-memory data structure store for caching",
+          description: "In memory data structure store for caching",
           icon: "🔴",
           proficiency: 84,
           projects: "25+ projects"
         },
         {
           name: "Firebase",
-          description: "Real-time database and backend services",
+          description: "Real time database and backend services",
           icon: "🔥",
           proficiency: 88,
           projects: "35+ projects"
@@ -614,18 +614,18 @@ const TechnologyStack = () => {
       title: "Mobile Development",
       icon: Smartphone,
       count: "4 technologies",
-      description: "Cross-platform mobile applications",
+      description: "Cross platform mobile applications",
       technologies: [
         {
           name: "React Native",
-          description: "Cross-platform mobile app development framework",
+          description: "Cross platform mobile app development framework",
           icon: "📱",
           proficiency: 88,
           projects: "25+ projects"
         },
         {
           name: "Flutter",
-          description: "Google's UI toolkit for cross-platform apps",
+          description: "Google's UI toolkit for cross platform apps",
           icon: "🦋", 
           proficiency: 83,
           projects: "15+ projects"
@@ -639,7 +639,7 @@ const TechnologyStack = () => {
         },
         {
           name: "PWA",
-          description: "Progressive Web Apps for mobile-like experiences",
+          description: "Progressive Web Apps for mobile like experiences",
           icon: "🌐",
           proficiency: 92,
           projects: "40+ projects"
@@ -650,7 +650,7 @@ const TechnologyStack = () => {
       title: "AI & Emerging Tech",
       icon: Zap,
       count: "4 technologies",
-      description: "Artificial intelligence and cutting-edge technologies",
+      description: "Artificial intelligence and cutting edge technologies",
       technologies: [
         {
           name: "Machine Learning",
@@ -699,13 +699,13 @@ const TechnologyStack = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Cutting-Edge{' '}
+            Cutting Edge{' '}
             <span className="bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">
               Technologies
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We leverage the latest technologies and industry best practices to build scalable, performant, and future-ready solutions.
+            We leverage the latest technologies and industry best practices to build scalable, performant, and future ready solutions.
           </p>
         </motion.div>
 

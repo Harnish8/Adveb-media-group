@@ -7,7 +7,7 @@ const features = [
   "Ongoing Technical Support",
   "Tailored Digital Strategy",
   "Transparent Communication",
-  "Post-Launch Optimisation",
+  "Post Launch Optimisation",
   "Dedicated Project Manager",
   "Personalised Digital Solutions",
 ];

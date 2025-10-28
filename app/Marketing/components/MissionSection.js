@@ -10,7 +10,7 @@ const MissionSection = () => {
     {
       icon: Target,
       title: "Strategic Vision",
-      description: "We don't just execute projects—we architect digital strategies that create lasting competitive advantages for our clients."
+      description: "We don't just execute projects we architect digital strategies that create lasting competitive advantages for our clients."
     },
     {
       icon: Users,
@@ -20,7 +20,7 @@ const MissionSection = () => {
     {
       icon: Zap,
       title: "Innovation First",
-      description: "We stay ahead of technology curves, ensuring our clients always have access to cutting-edge solutions and emerging opportunities."
+      description: "We stay ahead of technology curves, ensuring our clients always have access to cutting edge solutions and emerging opportunities."
     },
     {
       icon: Shield,
@@ -32,7 +32,7 @@ const MissionSection = () => {
   const comparisonData = [
     {
       category: "Approach",
-      traditional: "Project-based execution",
+      traditional: "Project based execution",
       adveb: "Strategic partnership & consultation"
     },
     {
@@ -43,16 +43,16 @@ const MissionSection = () => {
     {
       category: "Communication",
       traditional: "Periodic status updates",
-      adveb: "Real-time collaboration & transparency"
+      adveb: "Real time collaboration & transparency"
     },
     {
       category: "Technology",
       traditional: "Standard solutions",
-      adveb: "Cutting-edge, future-ready tech stack"
+      adveb: "Cutting edge, future ready tech stack"
     },
     {
       category: "Support",
-      traditional: "Limited post-launch support",
+      traditional: "Limited post launch support",
       adveb: "Ongoing optimization & growth support"
     }
   ];

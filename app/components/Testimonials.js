@@ -36,7 +36,7 @@ export default function Testimonials() {
             What Leaders Say
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            C-level executives share their experience with our integrated service delivery approach.
+            C level executives share their experience with our integrated service delivery approach.
           </p>
         </div>
 

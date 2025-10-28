@@ -16,7 +16,7 @@ export default function TrustSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Enterprise Trust & Security</h2>
           <p className="text-lg text-gray-600">
-            Industry-leading security standards and compliance that enterprise clients trust.
+            Industry leading security standards and compliance that enterprise clients trust.
           </p>
         </div>
 

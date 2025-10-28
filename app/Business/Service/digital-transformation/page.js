@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Header from '../../components/BusinessHeader'
-import Footer from '../../../components/Footer'
+import Footer from '../../components/BusinessFooter'
 import { Card, CardContent } from '../../components/Card';
 import Image from 'next/image';
 import { ArrowRight, CheckCircle, Zap, Cloud, Smartphone, Cpu } from 'lucide-react';
@@ -31,14 +31,14 @@ export default function DigitalTransformation() {
     {
       icon: Smartphone,
       title: 'Digital Customer Experience',
-      description: 'Transform customer interactions with digital-first experiences.',
+      description: 'Transform customer interactions with digital first experiences.',
     },
   ];
 
   const benefits = [
     'Increased operational efficiency',
     'Enhanced customer experiences',
-    'Improved data-driven decision making',
+    'Improved data driven decision making',
     'Greater business agility',
     'Competitive advantage through innovation',
     'Reduced operational costs',
@@ -47,7 +47,7 @@ export default function DigitalTransformation() {
   const keyAreas = [
     {
       title: 'Technology Modernization',
-      description: 'Upgrade legacy systems and adopt cutting-edge technologies that drive business value.',
+      description: 'Upgrade legacy systems and adopt cutting edge technologies that drive business value.',
     },
     {
       title: 'Data & Analytics',
@@ -55,7 +55,7 @@ export default function DigitalTransformation() {
     },
     {
       title: 'Change Management',
-      description: 'Successfully navigate organizational change and build digital-ready teams.',
+      description: 'Successfully navigate organizational change and build digital ready teams.',
     },
     {
       title: 'Innovation Culture',
@@ -105,7 +105,7 @@ export default function DigitalTransformation() {
               Digital Transformation Services
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              End-to-end solutions to accelerate your digital transformation.
+              End to end solutions to accelerate your digital transformation.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

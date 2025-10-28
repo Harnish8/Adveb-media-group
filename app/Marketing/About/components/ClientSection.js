@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     id: 3,
-    quote: 'Professional, reliable, and innovative. Adveb Media Group is our go-to IT partner.',
+    quote: 'Professional, reliable, and innovative. Adveb Media Group is our go to IT partner.',
     name: 'Emily Davis',
     company: 'Innovation Corp.',
     rating: 5

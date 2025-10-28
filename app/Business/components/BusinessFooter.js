@@ -2,16 +2,6 @@ import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from 'lucide-react'
 
 export default function Footer() {
 
-  const scrollToContact = () => {
-    const contactSection = document.getElementById('contact-section');
-    if (contactSection) {
-      contactSection.scrollIntoView({ 
-        behavior: 'smooth',
-        block: 'start'
-      });
-    }
-  };
-
   return (
     <footer className="bg-blue-600 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -22,7 +12,7 @@ export default function Footer() {
             Integrated IT, Marketing, and Business Consulting solutions.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button onClick={scrollToContact} className="bg-white text-blue-600 px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors">
+            <button className="bg-white text-blue-600 px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors">
               Schedule Free Consultation
             </button>
             <button className="border-2 border-white text-white px-8 py-3 rounded-md font-medium hover:bg-white hover:text-blue-600 transition-colors">
@@ -99,3 +89,4 @@ export default function Footer() {
     </footer>
   )
 }
+

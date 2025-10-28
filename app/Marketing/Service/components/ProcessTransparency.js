@@ -29,10 +29,10 @@ const ProcessTransparency = () => {
             title: "Design & Prototyping",
             duration: "2-3 weeks",
             icon: Palette,
-            description: "Create user-centered designs and interactive prototypes that align perfectly with your brand identity and business objectives.",
+            description: "Create user centered designs and interactive prototypes that align perfectly with your brand identity and business objectives.",
             deliverables: [
                 "User journey maps and wireframes",
-                "High-fidelity mockups and visual designs",
+                "High fidelity mockups and visual designs",
                 "Interactive prototypes and demonstrations",
                 "Comprehensive design system documentation"
             ],
@@ -47,7 +47,7 @@ const ProcessTransparency = () => {
             title: "Development & Testing",
             duration: "4-8 weeks",
             icon: Code,
-            description: "Build robust, scalable solutions using cutting-edge technologies with rigorous testing and quality assurance at every development stage.",
+            description: "Build robust, scalable solutions using cutting edge technologies with rigorous testing and quality assurance at every development stage.",
             deliverables: [
                 "Fully functional application with all features",
                 "Comprehensive quality assurance reports",
@@ -57,8 +57,8 @@ const ProcessTransparency = () => {
             activities: [
                 "Frontend and backend development",
                 "Database design and implementation",
-                "API integration and third-party services",
-                "Cross-platform compatibility and testing"
+                "API integration and third party services",
+                "Cross platform compatibility and testing"
             ]
         },
         {
@@ -67,15 +67,15 @@ const ProcessTransparency = () => {
             icon: Rocket,
             description: "Deploy your solution with comprehensive monitoring systems and continuous optimization strategies for sustained peak performance.",
             deliverables: [
-                "Production deployment and go-live support",
+                "Production deployment and go live support",
                 "Performance monitoring and analytics setup",
                 "User training materials and documentation",
-                "Post-launch optimization and fine-tuning"
+                "Post launch optimization and fine-tuning"
             ],
             activities: [
                 "Production environment setup and configuration",
-                "Go-live coordination and launch management",
-                "Real-time performance monitoring implementation",
+                "Go live coordination and launch management",
+                "Real time performance monitoring implementation",
                 "Continuous optimization and improvement"
             ]
         }

@@ -54,7 +54,7 @@ const HeroSection1 = () => {
                             transition={{ delay: 0.6, duration: 0.6 }}
                             className="text-xl text-white-300 mb-8 leading-relaxed max-w-2xl"
                         >
-                            Since our founding, we&apos;ve been the strategic digital partner that ambitious companies trust to architect their digital transformation. We dont just build websites and apps, we create competitive advantages.
+                            Since our founding, we&apos;ve been the strategic digital partner that ambitious companies trust to architect their digital transformation. We don&apos;t just build websites and apps, we create competitive advantages.
                         </motion.p>
 
                         {/* <motion.div
@@ -184,7 +184,7 @@ const HeroSection1 = () => {
                                     </div>
                                     <span className="text-white font-semibold">Development</span>
                                 </div>
-                                <div className="text-white text-sm">Cutting-edge web & mobile solutions</div>
+                                <div className="text-white text-sm">Cutting edge web & mobile solutions</div>
                             </motion.div>
 
                             <motion.div
@@ -198,7 +198,7 @@ const HeroSection1 = () => {
                                     </div>
                                     <span className="text-white font-semibold">Design</span>
                                 </div>
-                                <div className="text-white text-sm">User-centered design experiences</div>
+                                <div className="text-white text-sm">User centered design experiences</div>
                             </motion.div>
 
                             <motion.div

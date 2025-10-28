@@ -1,5 +1,5 @@
 import Header from '../components/BusinessHeader'
-import Footer from '../../components/Footer'
+import Footer from '../components/BusinessFooter'
 
 import Image from 'next/image';
 import ContactForm from './components/ContactForm'
@@ -180,7 +180,7 @@ export default function Contact() {
                   How long does a typical engagement last?
                 </h3>
                 <p className="text-gray-700">
-                  Project timelines vary based on scope and complexity. Short-term engagements may last 6-12 weeks, while comprehensive transformation projects can extend to 6-12 months. We&apos;ll provide a clear timeline during our consultation.
+                  Project timelines vary based on scope and complexity. Short term engagements may last 6-12 weeks, while comprehensive transformation projects can extend to 6-12 months. We&apos;ll provide a clear timeline during our consultation.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -188,7 +188,7 @@ export default function Contact() {
                   Do you work with businesses of all sizes?
                 </h3>
                 <p className="text-gray-700">
-                  Yes! We work with startups, small businesses, mid-market companies, and large enterprises. Our solutions are tailored to fit your organization&apos;s size, budget, and specific needs.
+                  Yes! We work with startups, small businesses, mid market companies, and large enterprises. Our solutions are tailored to fit your organization&apos;s size, budget, and specific needs.
                 </p>
               </div>
             </div>

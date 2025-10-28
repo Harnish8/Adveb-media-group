@@ -1,5 +1,5 @@
 import Header from './components/MarketingHeader'
-import Footer from '../components/Footer'
+import Footer from './components/MarketingFooter'
 
 import HeroSection from './components/HeroSection'
 import HeroSection1 from './components/HeroSection1'
