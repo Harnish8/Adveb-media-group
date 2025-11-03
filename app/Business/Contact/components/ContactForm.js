@@ -167,7 +167,7 @@ export default function ContactForm() {
     form.append('message', formData.message);
 
     try {
-      const response = await fetch('/api/contact.php', {
+      const response = await fetch('/contact.php', {
         method: 'POST',
         body: form
       });
