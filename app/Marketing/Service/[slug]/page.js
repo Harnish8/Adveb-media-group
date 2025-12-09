@@ -27,6 +27,10 @@ import {
   Feather
 } from "lucide-react";
 
+
+
+
+
 // Helper function to render a button-like Link with Tailwind classes
 const Button = ({ children, variant, size, className, href }) => {
   const baseClasses = "inline-flex items-center justify-center font-medium rounded-full transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2";
@@ -54,224 +58,6 @@ const ServiceDetail = () => {
   const params = useParams();
   const slug = params.slug;
 
-  // const servicesData = {
-  //   "web-development": {
-  //     icon: Globe,
-  //     title: "Web Development",
-  //     description: "Transform your digital presence with modern, responsive websites and powerful web applications built using cutting-edge technologies.",
-  //     longDescription: "Our web development services combine aesthetic design with robust functionality to create exceptional digital experiences. We specialize in creating responsive, fast-loading websites that not only look great but also drive business results. From simple business websites to complex web applications, our team delivers solutions that scale with your business growth.",
-  //     features: [
-  //       "Custom Website Design & Development",
-  //       "Responsive Mobile-First Design",
-  //       "E-commerce Solutions",
-  //       "Content Management Systems (CMS)",
-  //       "Progressive Web Applications (PWA)",
-  //       "API Development & Integration",
-  //       "SEO Optimization",
-  //       "Performance Optimization",
-  //       "Cross-browser Compatibility",
-  //       "Ongoing Maintenance & Support"
-  //     ],
-  //     technologies: ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL", "AWS"],
-  //     benefits: [
-  //       "Increased online visibility and brand awareness",
-  //       "Enhanced user experience across all devices",
-  //       "Improved conversion rates and customer engagement",
-  //       "Search engine optimized for better rankings",
-  //       "Scalable architecture for future growth",
-  //       "Fast loading times and optimal performance"
-  //     ]
-  //   },
-  //   "cloud-solutions": {
-  //     icon: Cloud,
-  //     title: "Cloud Solutions",
-  //     description: "Leverage the power of cloud computing with our comprehensive migration, infrastructure, and optimization services.",
-  //     longDescription: "Embrace the flexibility and scalability of cloud computing with our comprehensive cloud solutions. We help businesses migrate to the cloud, optimize their infrastructure, and build cloud-native applications that take full advantage of modern cloud platforms. Our expertise spans across major cloud providers including AWS, Azure, and Google Cloud Platform.",
-  //     features: [
-  //       "Cloud Migration Strategy & Execution",
-  //       "Infrastructure as Code (IaC)",
-  //       "Auto-scaling & Load Balancing",
-  //       "Cloud Security & Compliance",
-  //       "Disaster Recovery Planning",
-  //       "Cost Optimization",
-  //       "Serverless Architecture",
-  //       "Container Orchestration",
-  //       "Cloud Monitoring & Analytics",
-  //       "24/7 Cloud Support"
-  //     ],
-  //     technologies: ["AWS", "Azure", "Google Cloud", "Kubernetes", "Docker", "Terraform"],
-  //     benefits: [
-  //       "Reduced infrastructure costs and complexity",
-  //       "Improved scalability and flexibility",
-  //       "Enhanced security and compliance",
-  //       "Better disaster recovery capabilities",
-  //       "Increased operational efficiency",
-  //       "Global availability and performance"
-  //     ]
-  //   },
-  //   "cybersecurity": {
-  //     icon: Shield,
-  //     title: "Cybersecurity",
-  //     description: "Protect your digital assets with comprehensive security solutions designed to defend against modern cyber threats.",
-  //     longDescription: "In today's digital landscape, cybersecurity is not optional—it's essential. Our comprehensive cybersecurity services protect your business from evolving threats while ensuring compliance with industry regulations. We provide multi-layered security solutions that safeguard your data, systems, and reputation.",
-  //     features: [
-  //       "Security Risk Assessment",
-  //       "Vulnerability Testing & Management",
-  //       "Network Security Solutions",
-  //       "Endpoint Protection",
-  //       "Data Encryption & Privacy",
-  //       "Identity & Access Management",
-  //       "Security Incident Response",
-  //       "Compliance Management",
-  //       "Security Training & Awareness",
-  //       "24/7 Security Monitoring"
-  //     ],
-  //     technologies: ["Next-gen Firewalls", "SIEM", "EDR", "Multi-factor Authentication", "Zero Trust Architecture"],
-  //     benefits: [
-  //       "Protection against cyber threats and data breaches",
-  //       "Compliance with industry regulations",
-  //       "Reduced risk of financial and reputational damage",
-  //       "Enhanced customer trust and confidence",
-  //       "Business continuity assurance",
-  //       "Proactive threat detection and response"
-  //     ]
-  //   },
-  //   "it-support": {
-  //     icon: Headphones,
-  //     title: "IT Support",
-  //     description: "Comprehensive technical support and maintenance services to keep your business running smoothly around the clock.",
-  //     longDescription: "Our IT support services ensure your technology infrastructure operates at peak performance. With 24/7 monitoring, proactive maintenance, and rapid response times, we minimize downtime and maximize productivity. Our experienced team provides both reactive support and proactive management to prevent issues before they impact your business.",
-  //     features: [
-  //       "24/7 Help Desk Support",
-  //       "Remote Technical Support",
-  //       "On-site Support Services",
-  //       "System Monitoring & Maintenance",
-  //       "Hardware & Software Management",
-  //       "Network Administration",
-  //       "Backup & Recovery Services",
-  //       "Software Updates & Patches",
-  //       "User Training & Documentation",
-  //       "IT Asset Management"
-  //     ],
-  //     technologies: ["Remote Management Tools", "Monitoring Software", "Ticketing Systems", "VPN Solutions"],
-  //     benefits: [
-  //       "Minimized system downtime and disruptions",
-  //       "Improved productivity and efficiency",
-  //       "Predictable IT costs and budgeting",
-  //       "Access to expert technical knowledge",
-  //       "Proactive issue prevention",
-  //       "Focus on core business activities"
-  //     ]
-  //   },
-  //   "software-development": {
-  //     icon: Code,
-  //     title: "Software Development",
-  //     description: "Custom software solutions tailored to your unique business requirements and workflows.",
-  //     longDescription: "Every business has unique needs that off-the-shelf software can't always address. Our custom software development services create tailored solutions that fit your specific requirements, integrate with your existing systems, and grow with your business. From desktop applications to complex enterprise systems, we deliver software that drives efficiency and competitive advantage.",
-  //     features: [
-  //       "Custom Application Development",
-  //       "Enterprise Software Solutions",
-  //       "Legacy System Modernization",
-  //       "API Development & Integration",
-  //       "Database Design & Optimization",
-  //       "User Interface & Experience Design",
-  //       "Quality Assurance & Testing",
-  //       "Deployment & Configuration",
-  //       "Training & Documentation",
-  //       "Ongoing Support & Updates"
-  //     ],
-  //     technologies: ["Python", "Java", ".NET", "React", "Angular", "PostgreSQL", "MongoDB"],
-  //     benefits: [
-  //       "Solutions tailored to your specific needs",
-  //       "Improved operational efficiency",
-  //       "Better integration with existing systems",
-  //       "Competitive advantage through innovation",
-  //       "Scalable architecture for growth",
-  //       "Full control over features and functionality"
-  //     ]
-  //   },
-  //   "data-management": {
-  //     icon: Database,
-  //     title: "Data Management",
-  //     description: "Comprehensive database solutions to organize, secure, and optimize your valuable business data.",
-  //     longDescription: "Data is one of your most valuable business assets. Our data management services help you organize, secure, and leverage your data effectively. From database design and optimization to data migration and backup solutions, we ensure your data is always available, accurate, and secure.",
-  //     features: [
-  //       "Database Design & Architecture",
-  //       "Data Migration Services",
-  //       "Performance Tuning & Optimization",
-  //       "Backup & Recovery Solutions",
-  //       "Data Security & Encryption",
-  //       "Business Intelligence & Analytics",
-  //       "Data Warehouse Solutions",
-  //       "Real-time Data Processing",
-  //       "Compliance & Governance",
-  //       "24/7 Database Monitoring"
-  //     ],
-  //     technologies: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Apache Kafka", "Elasticsearch"],
-  //     benefits: [
-  //       "Improved data accuracy and consistency",
-  //       "Enhanced data security and compliance",
-  //       "Better business insights and decision-making",
-  //       "Reduced data redundancy and storage costs",
-  //       "Faster query performance and response times",
-  //       "Reliable data backup and recovery"
-  //     ]
-  //   },
-  //   "it-consulting": {
-  //     icon: Settings,
-  //     title: "IT Consulting",
-  //     description: "Strategic technology consulting to help you make informed decisions and optimize your IT investments.",
-  //     longDescription: "Navigate the complex world of technology with confidence. Our IT consulting services provide strategic guidance to help you align technology with your business objectives, optimize costs, and prepare for future growth. We assess your current IT landscape and provide actionable recommendations for improvement.",
-  //     features: [
-  //       "IT Strategy & Planning",
-  //       "Technology Assessment & Audit",
-  //       "Digital Transformation Roadmap",
-  //       "Vendor Selection & Management",
-  //       "Cost Optimization Analysis",
-  //       "Risk Assessment & Mitigation",
-  //       "Process Improvement",
-  //       "Change Management",
-  //       "Project Management",
-  //       "Training & Knowledge Transfer"
-  //     ],
-  //     technologies: ["Various platforms based on assessment", "Industry-leading tools", "Best practices frameworks"],
-  //     benefits: [
-  //       "Aligned technology strategy with business goals",
-  //       "Optimized IT costs and investments",
-  //       "Reduced technology risks and vulnerabilities",
-  //       "Improved operational efficiency",
-  //       "Better decision-making with expert insights",
-  //       "Prepared for future growth and challenges"
-  //     ]
-  //   },
-  //   "mobile-solutions": {
-  //     icon: Smartphone,
-  //     title: "Mobile Solutions",
-  //     description: "Native and cross-platform mobile applications that engage users and drive business results.",
-  //     longDescription: "Reach your customers wherever they are with powerful mobile applications. Our mobile development services create engaging, user-friendly apps for iOS and Android platforms. Whether you need a native app for optimal performance or a cross-platform solution for broader reach, we deliver mobile experiences that drive engagement and business growth.",
-  //     features: [
-  //       "Native iOS & Android Development",
-  //       "Cross-platform App Development",
-  //       "Mobile UI/UX Design",
-  //       "App Performance Optimization",
-  //       "Push Notifications & Analytics",
-  //       "Offline Functionality",
-  //       "Third-party Integrations",
-  //       "App Store Optimization",
-  //       "Security & Data Protection",
-  //       "Ongoing Updates & Support"
-  //     ],
-  //     technologies: ["React Native", "Flutter", "Swift", "Kotlin", "Firebase", "Redux"],
-  //     benefits: [
-  //       "Direct connection with customers on mobile devices",
-  //       "Increased brand visibility and engagement",
-  //       "Enhanced customer experience and loyalty",
-  //       "New revenue streams and business opportunities",
-  //       "Real-time customer insights and analytics",
-  //       "Competitive advantage in mobile-first market"
-  //     ]
-  //   }
-  // };
   const servicesData = {
     "web-development": {
       icon: Globe,
@@ -491,7 +277,7 @@ const ServiceDetail = () => {
               <h2 className="text-4xl font-bold text-gray-900 mb-6">Service Overview</h2>
               <p className="text-lg text-gray-600 mb-8">{service.longDescription}</p>
 
-              <div className="grid grid-cols-2 gap-6">
+              {/* <div className="grid grid-cols-2 gap-6">
                 <div className="text-center p-4 bg-white rounded-lg shadow-sm border border-gray-200">
                   <Clock className="w-8 h-8 text-blue-600 mx-auto mb-2" />
                   <div className="text-2xl font-bold text-gray-900">Fast</div>
@@ -512,7 +298,7 @@ const ServiceDetail = () => {
                   <div className="text-2xl font-bold text-gray-900">5-Star</div>
                   <div className="text-sm text-gray-600">Service</div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-200">

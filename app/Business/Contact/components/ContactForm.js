@@ -165,6 +165,7 @@ export default function ContactForm() {
     form.append('email', formData.email);
     form.append('phone', formData.phone_number);
     form.append('message', formData.message);
+    form.append('company', 'Business Inquiry');
 
     try {
       const response = await fetch('/contact.php', {
@@ -227,6 +228,7 @@ export default function ContactForm() {
                   type="text"
                   name="phone_number"
                   placeholder="Your Phone"
+                  required
                   value={formData.phone_number}
                   onChange={handleChange}
                   className="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 transition-colors"

@@ -1,3 +1,4 @@
+"use client";
 import Header from './components/MarketingHeader'
 import Footer from './components/MarketingFooter'
 

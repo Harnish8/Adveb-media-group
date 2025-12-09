@@ -9,12 +9,12 @@ const contactItems = [
   {
     icon: <MapPin className="w-8 h-8 text-blue-600" />,
     title: 'Address',
-    content: '28/A Street, New York City, USA',
+    content: 'Sydney, Australia',
   },
   {
     icon: <PhoneCall className="w-8 h-8 text-blue-600" />,
     title: 'Phone',
-    content: '+1 (321) 984 754',
+    content: '+61 430 122 634',
   },
 ]
 

@@ -24,7 +24,7 @@ export default function Home() {
         paths={paths}
       />
       <Mission />
-      <ClientSection />
+      {/* <ClientSection /> */}
       <CompanySection />
       <TechnologySection />
       {/* <FeatureSection /> */}

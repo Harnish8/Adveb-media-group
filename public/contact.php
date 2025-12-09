@@ -29,7 +29,7 @@ try {
     }
     
     // Your email address
-    $to = "concept.harnish@gmail.com";
+    $to = "advebmedia@gmail.com";
     
     // Email subject
     $subject = "New Contact Form Message from " . $name . " - ADVEB Media Group";

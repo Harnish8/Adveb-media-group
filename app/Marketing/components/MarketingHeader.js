@@ -20,22 +20,17 @@ export default function Header() {
                 </div>
                 <span className="text-xl font-bold text-gray-900">Adveb</span> */}
                 <div className="relative">
-                  <Image
-                    src="/images/logo.png"
-                    alt="ADVEB Media Group"
-                    width={80}
-                    height={40}
-                    className="object-contain transition-transform group-hover:scale-105"
-                  />
+                  <Link href="/">
+                    <Image
+                      src="/images/logo.png"
+                      alt="ADVEB Media Group"
+                      width={80}
+                      height={40}
+                      className="object-contain transition-transform group-hover:scale-105"
+                    />
+                  </Link>
                 </div>
-                {/* <div className="flex flex-col">
-                  <span className="font-headline font-bold text-xl text-foreground group-hover:text-primary transition-brand">
-                    ADVEB
-                  </span>
-                  <span className="font-body text-xs text-muted-foreground -mt-1">
-                    Media Group
-                  </span>
-                </div> */}
+
               </div>
             </div>
           </div>

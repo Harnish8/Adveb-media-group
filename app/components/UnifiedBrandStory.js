@@ -136,11 +136,11 @@ const UnifiedBrandStory = () => {
                   <div className="flex items-center justify-center space-x-2 mb-2">
                     <AppIcon name="Plus" size={16} className="text-gray-500" />
                   </div>
-                  <h5 className="text-md font-medium text-gray-600">
+                  <h5 className="text-lg font-medium text-gray-600">
                     {example.secondary}
                   </h5>
                 </div>
-                <p className="text-sm text-gray-900 text-center leading-relaxed">
+                <p className="text-base text-gray-900 text-center leading-relaxed">
                   {example.description}
                 </p>
               </motion.div>
@@ -173,7 +173,7 @@ const UnifiedBrandStory = () => {
                   <div className="w-20 h-20 bg-blue-600 rounded-2xl flex items-center justify-center mb-3 transform hover:scale-110 transition-transform duration-300">
                     <AppIcon name="Server" size={32} className="text-white" />
                   </div>
-                  <span className="text-sm font-medium text-gray-900">IT Services</span>
+                  <span className="text-base font-medium text-gray-900">IT Services</span>
                 </div>
 
                 {/* Connection Lines */}
@@ -188,7 +188,7 @@ const UnifiedBrandStory = () => {
                   <div className="w-20 h-20 bg-cyan-500 rounded-2xl flex items-center justify-center mb-3 transform hover:scale-110 transition-transform duration-300">
                     <AppIcon name="TrendingUp" size={32} className="text-white" />
                   </div>
-                  <span className="text-sm font-medium text-gray-900">Marketing</span>
+                  <span className="text-base font-medium text-gray-900">Marketing</span>
                 </div>
 
                 {/* Connection Lines */}
@@ -203,16 +203,16 @@ const UnifiedBrandStory = () => {
                   <div className="w-20 h-20 bg-green-600 rounded-2xl flex items-center justify-center mb-3 transform hover:scale-110 transition-transform duration-300">
                     <AppIcon name="Users" size={32} className="text-white" />
                   </div>
-                  <span className="text-sm font-medium text-gray-900">Business</span>
+                  <span className="text-base font-medium text-gray-900">Business</span>
                 </div>
               </div>
             </div>
 
             <div className="space-y-4">
-              <p className="text-gray-900 font-medium">
+              <p className="text-gray-900 text-base font-medium">
                 Your strategic advantage in an integrated world
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-base">
                 Every tool sharpens the others. Every solution strengthens the whole.
               </p>
             </div>

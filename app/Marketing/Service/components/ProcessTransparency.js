@@ -274,7 +274,7 @@ const ProcessTransparency = () => {
         </motion.div> */}
 
                 {/* Timeline Overview */}
-                <motion.div
+                {/* <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
@@ -285,16 +285,16 @@ const ProcessTransparency = () => {
                         Project Timeline Overview
                     </h3>
 
-                    {/* Desktop Timeline */}
+                    
                     <div className="hidden md:block">
                         <div className="relative">
-                            {/* Connection Line */}
+                            
                             <div className="absolute top-5 left-5 right-5 h-0.5 bg-gray-300"></div>
 
                             <div className="relative flex justify-between items-start">
                                 {phases.map((phase, index) => (
                                     <div key={index} className="flex flex-col items-center flex-1">
-                                        {/* Circle */}
+                                        
                                         <div className={`relative z-10 w-10 h-10 rounded-full flex items-center justify-center font-semibold text-sm mb-4 ${index <= activePhase
                                                 ? 'bg-blue-600 text-white shadow-lg'
                                                 : 'bg-gray-200 text-gray-600'
@@ -302,14 +302,12 @@ const ProcessTransparency = () => {
                                             {index + 1}
                                         </div>
 
-                                        {/* Content */}
+                                        
                                         <div className="text-center max-w-[200px]">
                                             <h4 className="font-semibold text-gray-900 text-sm mb-1 leading-tight">
                                                 {phase.title}
                                             </h4>
-                                            {/* <p className="text-xs text-blue-600 font-medium">
-                                                {phase.duration}
-                                            </p> */}
+                                            
                                         </div>
                                     </div>
                                 ))}
@@ -317,11 +315,11 @@ const ProcessTransparency = () => {
                         </div>
                     </div>
 
-                    {/* Mobile Timeline */}
+                    
                     <div className="md:hidden space-y-4">
                         {phases.map((phase, index) => (
                             <div key={index} className="flex items-start space-x-4">
-                                {/* Circle with Line */}
+                                
                                 <div className="flex flex-col items-center flex-shrink-0">
                                     <div className={`w-8 h-8 rounded-full flex items-center justify-center font-semibold text-sm ${index <= activePhase
                                             ? 'bg-blue-600 text-white'
@@ -335,14 +333,12 @@ const ProcessTransparency = () => {
                                     )}
                                 </div>
 
-                                {/* Content */}
+                                
                                 <div className="flex-1 pb-4">
                                     <h4 className="font-semibold text-gray-900 text-sm mb-1">
                                         {phase.title}
                                     </h4>
-                                    {/* <p className="text-xs text-blue-600 font-medium mb-2">
-                                        {phase.duration}
-                                    </p> */}
+                                    
                                     <p className="text-xs text-gray-600 leading-relaxed">
                                         {phase.description}
                                     </p>
@@ -351,24 +347,7 @@ const ProcessTransparency = () => {
                         ))}
                     </div>
 
-                    {/* Progress Bar */}
-                    {/* <div className="mt-8 pt-6 border-t border-gray-200">
-                        <div className="flex justify-between items-center mb-3">
-                            <span className="text-sm font-medium text-gray-600">Overall Progress</span>
-                            <span className="text-sm font-medium text-blue-600">
-                                {activePhase + 1} of {phases.length} phases
-                            </span>
-                        </div>
-                        <div className="w-full bg-gray-200 rounded-full h-2">
-                            <motion.div
-                                initial={{ width: 0 }}
-                                animate={{ width: `${((activePhase + 1) / phases.length) * 100}%` }}
-                                transition={{ duration: 0.8 }}
-                                className="bg-gradient-to-r from-blue-600 to-cyan-500 h-2 rounded-full"
-                            ></motion.div>
-                        </div>
-                    </div> */}
-                </motion.div>
+                </motion.div> */}
 
             </div>
         </section>

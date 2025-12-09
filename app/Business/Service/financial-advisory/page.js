@@ -85,7 +85,7 @@ export default function FinancialAdvisory() {
             </div>
             <div className="relative h-96 rounded-lg overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHw2fHxmaW5hbmNpYWwlMjBhbmFseXNpc3xlbnwwfHx8Ymx1ZXwxNzU5ODA4OTUyfDA&ixlib=rb-4.1.0&q=85"
+                src="/images/financialadvisory.jpg"
                 alt="Financial advisory and planning"
                 width={1920}
                 height={1080}

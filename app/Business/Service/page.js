@@ -162,10 +162,10 @@ export default function Services() {
                               viewBox="0 0 24 24"
                               fill="none"
                               stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              class="ml-2 size-4 shrink-0"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              className="ml-2 size-4 shrink-0"
                               aria-hidden="true"
                             >
                               <path d="M5 12h14"></path>

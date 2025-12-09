@@ -32,6 +32,7 @@
 import { useState, useEffect } from 'react';
 import Header from './components/Header'
 import HeroSection1 from './components/HeroSection1'
+import HeroSection from './components/HeroSection'
 import UnifiedBrandStory from './components/UnifiedBrandStory'
 import SuccessStories from './components/SuccessStories'
 import Testimonials from './components/Testimonials'
@@ -75,12 +76,15 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <HeroSection1 />
-      <IntegratedExpertise />
+      {/* <HeroSection1 /> */}
+      <HeroSection />
+      <div id="IntegratedExpertise-Section">
+        <IntegratedExpertise />
+      </div>
       <UnifiedBrandStory />
       <SuccessStories />
-      <Testimonials />
-      <TrustSection />
+      {/* <Testimonials /> */}
+      {/* <TrustSection /> */}
       <div id="contact-section">
         <ContactForm />
       </div>

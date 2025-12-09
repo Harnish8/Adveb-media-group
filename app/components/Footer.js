@@ -12,6 +12,16 @@ export default function Footer() {
     }
   };
 
+  const scrollToService = () => {
+    const contactSection = document.getElementById('IntegratedExpertise-Section');
+    if (contactSection) {
+      contactSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+
   return (
     <footer className="bg-blue-600 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -25,9 +35,9 @@ export default function Footer() {
             <button onClick={scrollToContact} className="bg-white text-blue-600 px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors">
               Schedule Free Consultation
             </button>
-            <button className="border-2 border-white text-white px-8 py-3 rounded-md font-medium hover:bg-white hover:text-blue-600 transition-colors">
+            {/* <button className="border-2 border-white text-white px-8 py-3 rounded-md font-medium hover:bg-white hover:text-blue-600 transition-colors">
               Meet Our Leadership Team
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -37,7 +47,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center mr-3">
                 <span className="text-blue-600 font-bold text-sm">A</span>
               </div>
-              <span className="text-xl font-bold">Adveb Solutions</span>
+              <span className="text-xl font-bold">Adveb Media Group</span>
             </div>
             <p className="text-white mb-4">
               Excellence in IT, Marketing and Business capabilities amplifying your success exponentially.
@@ -52,7 +62,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-white">
-              <li><a href="https://adveb-media-group-it.vercel.app/" className="hover:text-white" target="_blank">IT Services</a></li>
+              <li><a href="It" className="hover:text-white" target="_blank">IT Services</a></li>
               <li><a href="Marketing" className="hover:text-white" target="_blank">Marketing Solutions</a></li>
               <li><a href="Business" className="hover:text-white" target="_blank">Business Consulting</a></li>
             </ul>
@@ -61,10 +71,8 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-white">
-              <li><a href="#" className="hover:text-white">About Us</a></li>
-              <li><a href="#" className="hover:text-white">Leadership Team</a></li>
-              <li><a href="#" className="hover:text-white">Careers</a></li>
-              <li><a href="#" className="hover:text-white">News & Insights</a></li>
+              <li><a onClick={scrollToContact} className="hover:text-white cursor-pointer">Contact Us</a></li>
+              <li><a onClick={scrollToService} className="hover:text-white cursor-pointer">Services</a></li>
             </ul>
           </div>
 
@@ -73,15 +81,15 @@ export default function Footer() {
             <div className="space-y-3 text-white">
               <div className="flex items-center">
                 <Mail className="w-4 h-4 mr-3" />
-                <span>hello@advebsolutions.com</span>
+                <span>info@advebmedia.com.au</span>
               </div>
               <div className="flex items-center">
                 <Phone className="w-4 h-4 mr-3" />
-                <span>+1 (555) 123-4567</span>
+                <span>+61 430 122 634</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-4 h-4 mr-3" />
-                <span>Sydney, CA 94102</span>
+                <span>Sydney, Australia</span>
               </div>
             </div>
           </div>

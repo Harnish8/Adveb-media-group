@@ -201,7 +201,7 @@ const IntegratedExpertise = () => {
       icon: Shield,
       title: "IT",
       description: "Build robust foundations and secure future with cutting technology solutions.",
-      link: "https://adveb-media-group-it.vercel.app/",
+      link: "/It",
       buttonText: "Learn More",
       gradient: "from-blue-500 via-blue-600 to-blue-700",
       cardGradient: "from-blue-500/20 via-blue-600/20 to-blue-700/20",
@@ -267,14 +267,14 @@ const IntegratedExpertise = () => {
                   </div>
                   
                   {/* Title */}
-                  <h3 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-800 relative">
+                  <h3 className="text-2xl sm:text-2xl font-bold mb-3 sm:mb-4 text-gray-800 relative">
                     <span className={`text-transparent bg-clip-text bg-gradient-to-r ${service.gradient}`}>
                       {service.title}
                     </span>
                   </h3>
                   
                   {/* Description */}
-                  <p className="text-sm sm:text-base text-gray-600 mb-4 leading-relaxed relative px-1">
+                  <p className="text-lg sm:text-lg text-gray-600 mb-4 leading-relaxed relative px-1">
                     {service.description}
                   </p>
                 </Link>
